@@ -1729,14 +1729,14 @@ ecms_web_core_api.creditofficerreviewandconf.history : http://CORE-SERVICE/credi
 ecms_web_core_api.creditofficerreviewandconf.viewaccess : http://CORE-SERVICE/creditofficerreviewandconf/viewaccess
 ecms_web_core_api.creditofficerreviewandconf.approve : http://CORE-SERVICE/creditofficerreviewandconf/approve
 ecms_web_core_api.creditofficerreviewandconf.reject : http://CORE-SERVICE/creditofficerreviewandconf/reject
-
-#Credit Officer Review
-ecms_web_core_api.crofficerreview.access : http://CORE-SERVICE/crofficerreview/access
-ecms_web_core_api.crofficerreview.list : http://CORE-SERVICE/crofficerreview/list
-ecms_web_core_api.crofficerreview.history : http://CORE-SERVICE/crofficerreview/history
-ecms_web_core_api.crofficerreview.view : http://CORE-SERVICE/crofficerreview/view
-ecms_web_core_api.crofficerreview.submit : http://CORE-SERVICE/crofficerreview/submit
-
+ecms_web_core_api.creditofficerreviewandconf.customer_templates : http://CORE-SERVICE/creditofficerreviewandconf/customer_templates
+ecms_web_core_api.creditofficerreviewandconf.production_modes : http://CORE-SERVICE/creditofficerreviewandconf/production_modes
+ecms_web_core_api.creditofficerreviewandconf.account_templates : http://CORE-SERVICE/creditofficerreviewandconf/account_templates
+ecms_web_core_api.creditofficerreviewandconf.card_templates : http://CORE-SERVICE/creditofficerreviewandconf/card_templates
+ecms_web_core_api.creditofficerreviewandconf.rec_download : http://CORE-SERVICE/creditofficerreviewandconf/rec_download
+ecms_web_core_api.creditofficerreviewandconf.recalculate : http://CORE-SERVICE/creditofficerreviewandconf/recalculate
+ecms_web_core_api.creditofficerreviewandconf.breakdown : http://CORE-SERVICE/creditofficerreviewandconf/breakdown
+ecms_web_core_api.creditofficerreviewandconf.bins : http://CORE-SERVICE/creditofficerreviewandconf/bins
 
 # ---------------------------------------- ISSUANCE & PERSONALISATION -------------------------------------------------#
 
@@ -1971,7 +1971,6 @@ ecms_web_core_api.app_capture_upd.history : http://CORE-SERVICE/app_capture_upd/
 
 #Credit Application Capturing
 ecms_web_core_api.app_capture.access : http://CORE-SERVICE/app_capture/access
-ecms_web_core_api.app_capture.currency : http://CORE-SERVICE/app_capture/currency
 ecms_web_core_api.app_capture.list : http://CORE-SERVICE/app_capture/list
 ecms_web_core_api.app_capture.data : http://CORE-SERVICE/app_capture/data
 ecms_web_core_api.app_capture.addpersonaldetails : http://CORE-SERVICE/app_capture/addpersonaldetails
@@ -2001,6 +2000,15 @@ ecms_web_core_api.app_capture.districtandprovice : http://CORE-SERVICE/app_captu
 ecms_web_core_api.app_capture.occupations : http://CORE-SERVICE/app_capture/occupations
 ecms_web_core_api.app_capture.area : http://CORE-SERVICE/app_capture/area
 ecms_web_core_api.app_capture.viewremark : http://CORE-SERVICE/app_capture/viewremark
+ecms_web_core_api.app_capture.currency : http://CORE-SERVICE/app_capture/currency
+
+#Credit Application Review
+ecms_web_core_api.crofficerreview.access: http://CORE-SERVICE/crofficerreview/access
+ecms_web_core_api.crofficerreview.view: http://CORE-SERVICE/crofficerreview/view
+ecms_web_core_api.crofficerreview.list: http://CORE-SERVICE/crofficerreview/list
+ecms_web_core_api.crofficerreview.history: http://CORE-SERVICE/crofficerreview/history
+ecms_web_core_api.crofficerreview.submit: http://CORE-SERVICE/crofficerreview/submit
+ecms_web_core_api.crofficerreview.breakdown: http://CORE-SERVICE/crofficerreview/breakdown
 
 #Easy Payment Request
 ecms_web_call_center_api.easypayment.access : http://CALL-CENTER-SERVICE/easypayment/access
@@ -2049,7 +2057,7 @@ ecms_web_call_center_api.acctxnriskmgt.updaterisk : http://CALL-CENTER-SERVICE/a
 #Temporary Limit Change Request
 ecms_web_call_center_api.templimitchangereq.access : http://CALL-CENTER-SERVICE/templimitchangereq/access
 ecms_web_call_center_api.templimitchangereq.history : http://CALL-CENTER-SERVICE/templimitchangereq/history
-ecms_web_call_center_api.templimitchangereq.reject : http://CALL-CENTER-SERVICE/templimitchangereq/add
+ecms_web_call_center_api.templimitchangereq.add : http://CALL-CENTER-SERVICE/templimitchangereq/add
 
 #Card Activation Confirmation
 ecms_web_call_center_api.cardactivation.access : http://CALL-CENTER-SERVICE/cardactivation/access
@@ -2417,6 +2425,7 @@ ecms_web_debit_issuance_api.app_verify_confirm.approve : http://DEBIT-SERVICE/in
 ecms_web_core_api.manualnpreqaprv.access : http://CORE-SERVICE/manualnpreqaprv/access
 ecms_web_core_api.manualnpreqaprv.list : http://CORE-SERVICE/manualnpreqaprv/list
 ecms_web_core_api.manualnpreqaprv.history : http://CORE-SERVICE/manualnpreqaprv/history
-ecms_web_core_api.manualnpreqaprv.confirm : http://CORE-SERVICE/manualnpreqaprv/confirm
+ecms_web_core_api.manualnpreqaprv.approve : http://CORE-SERVICE/manualnpreqaprv/approve
 ecms_web_core_api.manualnpreqaprv.reject : http://CORE-SERVICE/manualnpreqaprv/reject
+
 

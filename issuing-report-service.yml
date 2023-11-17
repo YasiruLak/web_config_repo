@@ -1,4 +1,3 @@
-#----------------------------------------------- Report location dir---------------------------------------------------#
 
 ecms_web_common_report_file.directory.excel : GeneratedReports/
 ecms_web_common_report_file.directory.pdf : GeneratedReports/
