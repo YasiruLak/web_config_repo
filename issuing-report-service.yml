@@ -1,7 +1,7 @@
 
-ecms_web_common_report_file.directory.excel : GeneratedReports/
-ecms_web_common_report_file.directory.pdf : GeneratedReports/
-ecms_web_common_report_file.directory.txt : GeneratedReports/
+ecms_web_issuing_report_file.directory.excel : GeneratedReports/
+ecms_web_issuing_report_file.directory.pdf : GeneratedReports/
+ecms_web_issuing_report_file.directory.txt : GeneratedReports/
 
 # ----------------------------------------------Issuing Report_Generator-----------------------------------------------#
 
