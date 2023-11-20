@@ -1901,12 +1901,6 @@ ecms_web_call_center_api.pincountreset.release : http://CALL-CENTER-SERVICE/pinc
 ecms_web_call_center_api.pincountreset.reset : http://CALL-CENTER-SERVICE/pincountreset/reset
 ecms_web_call_center_api.pincountreset.view : http://CALL-CENTER-SERVICE/pincountreset/view
 
-#Transaction drop request
-ecms_web_call_center_api.txndropreq.access : http://CALL-CENTER-SERVICE/txndropreq/access
-ecms_web_call_center_api.txndropreq.history : http://CALL-CENTER-SERVICE/txndropreq/history
-ecms_web_call_center_api.txndropreq.req : http://CALL-CENTER-SERVICE/txndropreq/req
-ecms_web_call_center_api.txndropreq.list : http://CALL-CENTER-SERVICE/txndropreq/list
-
 #Balance transfer request
 ecms_web_call_center_api.balancetransferreq.access : http://CALL-CENTER-SERVICE/balancetransferreq/access
 ecms_web_call_center_api.balancetransferreq.history : http://CALL-CENTER-SERVICE/balancetransferreq/history
@@ -1934,12 +1928,6 @@ ecms_web_call_center_api.appmainview.docseclist : http://CALL-CENTER-SERVICE/app
 ecms_web_call_center_api.appmainview.expseclist : http://CALL-CENTER-SERVICE/appmainview/expseclist
 ecms_web_call_center_api.appmainview.history : http://CALL-CENTER-SERVICE/appmainview/history
 ecms_web_call_center_api.appmainview.view : http://CALL-CENTER-SERVICE/appmainview/view
-
-#Card memos request
-ecms_web_call_center_api.cardmemos.access : http://CALL-CENTER-SERVICE/cardmemos/access
-ecms_web_call_center_api.cardmemos.history : http://CALL-CENTER-SERVICE/cardmemos/history
-ecms_web_call_center_api.cardmemos.list : http://CALL-CENTER-SERVICE/cardmemos/list
-ecms_web_call_center_api.cardmemos.add : http://CALL-CENTER-SERVICE/cardmemos/add
 
 #Update Credit Application Capturing
 ecms_web_core_api.app_capture_upd.access : http://CORE-SERVICE/app_capture_upd/access
@@ -2053,11 +2041,6 @@ ecms_web_call_center_api.acctxnriskmgt.history : http://CALL-CENTER-SERVICE/acct
 ecms_web_call_center_api.acctxnriskmgt.assigntxn : http://CALL-CENTER-SERVICE/acctxnriskmgt/assigntxn
 ecms_web_call_center_api.acctxnriskmgt.updaterisk : http://CALL-CENTER-SERVICE/acctxnriskmgt/updaterisk
 
-#Temporary Limit Change Request
-ecms_web_call_center_api.templimitchangereq.access : http://CALL-CENTER-SERVICE/templimitchangereq/access
-ecms_web_call_center_api.templimitchangereq.history : http://CALL-CENTER-SERVICE/templimitchangereq/history
-ecms_web_call_center_api.templimitchangereq.add : http://CALL-CENTER-SERVICE/templimitchangereq/add
-
 #Card Activation Confirmation
 ecms_web_call_center_api.cardactivation.access : http://CALL-CENTER-SERVICE/cardactivation/access
 ecms_web_call_center_api.cardactivation.history : http://CALL-CENTER-SERVICE/cardactivation/history
@@ -2103,7 +2086,6 @@ ecms_web_debit_issuance_api.instant_kyc.addinstantcard : http://DEBIT-SERVICE/in
 ecms_web_debit_issuance_api.instant_kyc.mandatorydocs : http://DEBIT-SERVICE/instant_kyc/mandatorydocs
 ecms_web_debit_issuance_api.instant_kyc.area : http://DEBIT-SERVICE/instant_kyc/area
 ecms_web_debit_issuance_api.instant_kyc.districtandprovice : http://DEBIT-SERVICE/instant_kyc/districtandprovice
-
 
 #debit_issuance
 
@@ -2426,5 +2408,55 @@ ecms_web_core_api.manualnpreqaprv.list : http://CORE-SERVICE/manualnpreqaprv/lis
 ecms_web_core_api.manualnpreqaprv.history : http://CORE-SERVICE/manualnpreqaprv/history
 ecms_web_core_api.manualnpreqaprv.approve : http://CORE-SERVICE/manualnpreqaprv/approve
 ecms_web_core_api.manualnpreqaprv.reject : http://CORE-SERVICE/manualnpreqaprv/reject
+
+#Temporary Limit Change Request
+ecms_web_call_center_api.templimitchangereq.access : http://CALL-CENTER-SERVICE/templimitchangereq/access
+ecms_web_call_center_api.templimitchangereq.history : http://CALL-CENTER-SERVICE/templimitchangereq/history
+ecms_web_call_center_api.templimitchangereq.add : http://CALL-CENTER-SERVICE/templimitchangereq/add
+
+#Transaction drop request
+ecms_web_call_center_api.txndropreq.access : http://CALL-CENTER-SERVICE/txndropreq/access
+ecms_web_call_center_api.txndropreq.history : http://CALL-CENTER-SERVICE/txndropreq/history
+ecms_web_call_center_api.txndropreq.req : http://CALL-CENTER-SERVICE/txndropreq/req
+ecms_web_call_center_api.txndropreq.list : http://CALL-CENTER-SERVICE/txndropreq/list
+
+#Card memos request
+ecms_web_call_center_api.cardmemos.access : http://CALL-CENTER-SERVICE/cardmemos/access
+ecms_web_call_center_api.cardmemos.history : http://CALL-CENTER-SERVICE/cardmemos/history
+ecms_web_call_center_api.cardmemos.list : http://CALL-CENTER-SERVICE/cardmemos/list
+ecms_web_call_center_api.cardmemos.add : http://CALL-CENTER-SERVICE/cardmemos/add
+
+#Standing Order Type
+ecms_web_core_api.standingordertype.access : http://CORE-SERVICE/standingordertype/access
+ecms_web_core_api.standingordertype.add : http://CORE-SERVICE/standingordertype/add
+ecms_web_core_api.standingordertype.loadcategory : http://CORE-SERVICE/standingordertype/loadcategory
+ecms_web_core_api.standingordertype.list : http://CORE-SERVICE/standingordertype/list
+ecms_web_core_api.standingordertype.history : http://CORE-SERVICE/standingordertype/history
+
+#Debit Card Pin Gen
+ecms_web_debit_issuance_api.pin_generator.access : http://DEBIT-SERVICE/pin_generator/access
+ecms_web_debit_issuance_api.pin_generator.list : http://DEBIT-SERVICE/pin_generator/list
+ecms_web_debit_issuance_api.pin_generator.generate : http://DEBIT-SERVICE/pin_generator/generate
+
+
+#Debit Emboss Encode
+ecms_web_debit_issuance_api.debit_embossing_and_encoding.access : http://DEBIT-SERVICE/debit_embossing_and_encoding/access
+ecms_web_debit_issuance_api.debit_embossing_and_encoding.list : http://DEBIT-SERVICE/debit_embossing_and_encoding/list
+ecms_web_debit_issuance_api.debit_embossing_and_encoding.productlist : http://DEBIT-SERVICE/debit_embossing_and_encoding/productlist
+ecms_web_debit_issuance_api.debit_embossing_and_encoding.history : http://DEBIT-SERVICE/debit_embossing_and_encoding/history
+ecms_web_debit_issuance_api.debit_embossing_and_encoding.generate : http://DEBIT-SERVICE/debit_embossing_and_encoding/generate
+
+#Test
+ecms_web_core_api.secvaluegen.list : http://CORE-SERVICE/secvaluegen/list
+
+ecms_web_debit_issuance_api.pin_generator.history : http://DEBIT-SERVICE/pin_generator/history
+
+ecms_web_debit_issuance_api.card_pin_distribution.access : http://DEBIT-SERVICE/card_pin_distribution/access
+ecms_web_debit_issuance_api.card_pin_distribution.list : http://DEBIT-SERVICE/card_pin_distribution/list
+ecms_web_debit_issuance_api.card_pin_distribution.history : http://DEBIT-SERVICE/card_pin_distribution/history
+ecms_web_debit_issuance_api.card_pin_distribution.distribute : http://DEBIT-SERVICE/card_pin_distribution/distribute
+
+
+
 
 
