@@ -254,13 +254,21 @@ ecms_web_core_api.cashback.reject : http://CORE-SERVICE/cashback/reject
 #Risk Profile Management
 ecms_web_core_api.risk.access : http://CORE-SERVICE/risk/access
 ecms_web_core_api.risk.list : http://CORE-SERVICE/risk/list
+ecms_web_core_api.risk.view : http://CORE-SERVICE/risk/view
 ecms_web_core_api.risk.dropdown : http://CORE-SERVICE/risk/dropdown
 ecms_web_core_api.risk.profile : http://CORE-SERVICE/risk/profile
 ecms_web_core_api.risk.dualauthlist : http://CORE-SERVICE/risk/dualauthlist
 ecms_web_core_api.risk.history : http://CORE-SERVICE/risk/history
 ecms_web_core_api.risk.add : http://CORE-SERVICE/risk/add
+ecms_web_core_api.risk.addriskprofile : http://CORE-SERVICE/risk/addriskprofile
+ecms_web_core_api.risk.editriskprofile : http://CORE-SERVICE/risk/editriskprofile
+ecms_web_core_api.risk.assigndata : http://CORE-SERVICE/risk/assigndata
+ecms_web_core_api.risk.editassigndata : http://CORE-SERVICE/risk/editassigndata
 ecms_web_core_api.risk.data : http://CORE-SERVICE/risk/data
 ecms_web_core_api.risk.duplicate : http://CORE-SERVICE/risk/duplicate
+ecms_web_core_api.risk.loadata : http://CORE-SERVICE/risk/loadata
+ecms_web_core_api.risk.riskprofdata : http://CORE-SERVICE/risk/riskprofdata
+ecms_web_core_api.risk.profiledata : http://CORE-SERVICE/risk/profiledata
 ecms_web_core_api.risk.edit : http://CORE-SERVICE/risk/edit
 ecms_web_core_api.risk.delete : http://CORE-SERVICE/risk/delete
 ecms_web_core_api.risk.confirm : http://CORE-SERVICE/risk/confirm
@@ -1406,6 +1414,8 @@ ecms_web_core_api.accounttemplate.history : http://CORE-SERVICE/accounttemplate/
 ecms_web_core_api.accounttemplate.add : http://CORE-SERVICE/accounttemplate/add
 ecms_web_core_api.accounttemplate.edit : http://CORE-SERVICE/accounttemplate/edit
 ecms_web_core_api.accounttemplate.delete : http://CORE-SERVICE/accounttemplate/delete
+ecms_web_core_api.accounttemplate.loadcustemp : http://CORE-SERVICE/accounttemplate/loadcustemp
+ecms_web_core_api.accounttemplate.loadaccriskprof : http://CORE-SERVICE/accounttemplate/loadaccriskprof
 
 # Card Product Management
 ecms_web_core_api.cardproduct.access : http://CORE-SERVICE/cardproduct/access
@@ -1416,6 +1426,18 @@ ecms_web_core_api.cardproduct.history : http://CORE-SERVICE/cardproduct/history
 ecms_web_core_api.cardproduct.add : http://CORE-SERVICE/cardproduct/add
 ecms_web_core_api.cardproduct.edit : http://CORE-SERVICE/cardproduct/edit
 ecms_web_core_api.cardproduct.delete : http://CORE-SERVICE/cardproduct/delete
+
+############################# UPDATED CARD PRODUCT MANAGEMENT #######################################
+ecms_web_core_api.card-product.access : http://CORE-SERVICE/card-product/access
+ecms_web_core_api.card-product.list : http://CORE-SERVICE/card-product/list
+ecms_web_core_api.card-product.history : http://CORE-SERVICE/card-product/history
+ecms_web_core_api.card-product.card-keys : http://CORE-SERVICE/card-product/card-keys
+ecms_web_core_api.card-product.unassigned-bins : http://CORE-SERVICE/card-product/unassigned-bins
+ecms_web_core_api.card-product.assigned-bins : http://CORE-SERVICE/card-product/assigned-bins
+ecms_web_core_api.card-product.keylist : http://CORE-SERVICE/card-product/keylist
+ecms_web_core_api.card-product.add : http://CORE-SERVICE/card-product/add
+ecms_web_core_api.card-product.edit : http://CORE-SERVICE/card-product/edit
+ecms_web_core_api.card-product.delete : http://CORE-SERVICE/card-product/delete
 
 # ------------------------------ Back Office Operations Issuing ------------------------------------ #
 
@@ -1613,6 +1635,7 @@ ecms_web_core_api.balancetransferplan.reject : http://CORE-SERVICE/balancetransf
 # ---------------------------------------------- Request Confirmation -------------------------------------------------#
 
 #Cash Back Redeem Request Confirmation
+ecms_web_core_api.cashbackredeemconf.access : http://CORE-SERVICE/cashbackredeemconf/access
 ecms_web_core_api.cashbackredeemconf.list : http://CORE-SERVICE/cashbackredeemconf/list
 ecms_web_core_api.cashbackredeemconf.history : http://CORE-SERVICE/cashbackredeemconf/history
 ecms_web_core_api.cashbackredeemconf.approve : http://CORE-SERVICE/cashbackredeemconf/approve
@@ -1737,6 +1760,9 @@ ecms_web_core_api.creditofficerreviewandconf.rec_download : http://CORE-SERVICE/
 ecms_web_core_api.creditofficerreviewandconf.recalculate : http://CORE-SERVICE/creditofficerreviewandconf/recalculate
 ecms_web_core_api.creditofficerreviewandconf.breakdown : http://CORE-SERVICE/creditofficerreviewandconf/breakdown
 ecms_web_core_api.creditofficerreviewandconf.bins : http://CORE-SERVICE/creditofficerreviewandconf/bins
+ecms_web_core_api.creditofficerreviewandconf.information : http://CORE-SERVICE/creditofficerreviewandconf/information
+ecms_web_core_api.creditofficerreviewandconf.upload_letter : http://CORE-SERVICE/creditofficerreviewandconf/upload_letter
+ecms_web_core_api.creditofficerreviewandconf.promo_profiles : http://CORE-SERVICE/creditofficerreviewandconf/promo_profiles
 
 # ---------------------------------------- ISSUANCE & PERSONALISATION -------------------------------------------------#
 
@@ -1968,6 +1994,7 @@ ecms_web_core_api.app_capture_upd.completeDocuments : http://CORE-SERVICE/app_ca
 ecms_web_core_api.app_capture_upd.updcomplete : http://CORE-SERVICE/app_capture_upd/updcomplete
 ecms_web_core_api.app_capture_upd.history : http://CORE-SERVICE/app_capture_upd/history
 ecms_web_core_api.app_capture_upd.currency : http://CORE-SERVICE/app_capture_upd/currency
+ecms_web_core_api.app_capture_upd.districtandprovice : http://CORE-SERVICE/app_capture_upd/districtandprovice
 
 #Credit Application Capturing
 ecms_web_core_api.app_capture.access : http://CORE-SERVICE/app_capture/access
@@ -2011,6 +2038,7 @@ ecms_web_core_api.crofficerreview.submit: http://CORE-SERVICE/crofficerreview/su
 ecms_web_core_api.crofficerreview.breakdown: http://CORE-SERVICE/crofficerreview/breakdown
 ecms_web_core_api.crofficerreview.mandatorydocs: http://CORE-SERVICE/crofficerreview/mandatorydocs
 ecms_web_core_api.crofficerreview.retrieve_files: http://CORE-SERVICE/crofficerreview/retrieve_files
+ecms_web_core_api.crofficerreview.information: http://CORE-SERVICE/crofficerreview/information
 
 #Credit Application Confirmation
 ecms_web_core_api.crappconf.access : http://CORE-SERVICE/crappconf/access
@@ -2454,6 +2482,13 @@ ecms_web_core_api.fileprocessconfig.history : http://CORE-SERVICE/fileprocesscon
 ecms_web_core_api.fileprocessconfig.list : http://CORE-SERVICE/fileprocessconfig/list
 ecms_web_core_api.fileprocessconfig.access : http://CORE-SERVICE/fileprocessconfig/access
 
+
+#Debit Card Request Confirmation
+ecms_web_debit_issuance_api.debcardreqconf.access : http://DEBIT-SERVICE/debcardreqconf/access
+ecms_web_debit_issuance_api.debcardreqconf.list : http://DEBIT-SERVICE/debcardreqconf/list
+ecms_web_debit_issuance_api.debcardreqconf.approve : http://DEBIT-SERVICE/debcardreqconf/approve
+ecms_web_debit_issuance_api.debcardreqconf.reject : http://DEBIT-SERVICE/debcardreqconf/reject
+ecms_web_debit_issuance_api.debcardreqconf.history : http://DEBIT-SERVICE/debcardreqconf/history
 
 ####################################### ACQUIRING CONFIGURATION PAGES ##################################################
 # MVV BIN MANAGEMENT
