@@ -115,6 +115,10 @@ ecms_web_core_api.bin.view : http://CORE-SERVICE/bin/view
 # Country Management
 ecms_web_core_api.country.access : http://CORE-SERVICE/country/access
 ecms_web_core_api.country.list : http://CORE-SERVICE/country/list
+ecms_web_core_api.country.delete: http://CORE-SERVICE/country/delete
+ecms_web_core_api.country.add: http://CORE-SERVICE/country/add
+ecms_web_core_api.country.update: http://CORE-SERVICE/country/update
+ecms_web_core_api.country.history: http://CORE-SERVICE/country/history
 
 #Password Policy Management
 ecms_web_core_api.pwpolicy.access : http://CORE-SERVICE/pwpolicy/access
@@ -198,6 +202,7 @@ ecms_web_core_api.systemuser.delete : http://CORE-SERVICE/systemuser/delete
 ecms_web_core_api.systemuser.confirm : http://CORE-SERVICE/systemuser/confirm
 ecms_web_core_api.systemuser.reject : http://CORE-SERVICE/systemuser/reject
 ecms_web_core_api.systemuser.resetpwd : http://CORE-SERVICE/systemuser/reset
+ecms_web_core_api.systemuser.viewdualauth : http://CORE-SERVICE/systemuser/viewdualauth
 
 # ------------------------------------------------- Profile Management -----------------------------------------------#
 
@@ -228,6 +233,9 @@ ecms_web_core_api.feeprofmgt.updatefee : http://CORE-SERVICE/feeprofmgt/updatefe
 ecms_web_core_api.feeprofmgt.add : http://CORE-SERVICE/feeprofmgt/add
 ecms_web_core_api.feeprofmgt.update : http://CORE-SERVICE/feeprofmgt/update
 ecms_web_core_api.feeprofmgt.delete : http://CORE-SERVICE/feeprofmgt/delete
+ecms_web_core_api.feeprofmgt.dualauthlist : http://CORE-SERVICE/feeprofmgt/dualauthlist
+ecms_web_core_api.feeprofmgt.confirm : http://CORE-SERVICE/feeprofmgt/confirm
+ecms_web_core_api.feeprofmgt.reject : http://CORE-SERVICE/feeprofmgt/reject
 
 # Promofee Management
 ecms_web_core_api.promofee.access : http://CORE-SERVICE/promofee/access
@@ -1538,6 +1546,7 @@ ecms_web_core_api.pinmailerquality.access : http://CORE-SERVICE/pinmailerquality
 ecms_web_core_api.pinmailerquality.history : http://CORE-SERVICE/pinmailerquality/history
 ecms_web_core_api.pinmailerquality.qualityfail : http://CORE-SERVICE/pinmailerquality/qualityfail
 ecms_web_core_api.pinmailerquality.list : http://CORE-SERVICE/pinmailerquality/list
+ecms_web_core_api.pinmailerquality.cardProducts : http://CORE-SERVICE/pinmailerquality/cardProducts
 
 #personalized quality
 ecms_web_core_api.personalizedquality.view : http://CORE-SERVICE/personalizedquality/view
@@ -1739,6 +1748,7 @@ ecms_web_core_api.app_verify.reject : http://CORE-SERVICE/app_verify/reject
 ecms_web_core_api.app_verify.onhold : http://CORE-SERVICE/app_verify/onhold
 ecms_web_core_api.app_verify.mandatorydocs : http://CORE-SERVICE/app_verify/mandatorydocs
 ecms_web_core_api.app_verify.retrieve_files : http://CORE-SERVICE/app_verify/retrieve_files
+ecms_web_core_api.app_verify.prev_points : http://CORE-SERVICE/app_verify/prev_points
 
 #Application Credit Verify
 ecms_web_core_api.appcreditscore.access : http://CORE-SERVICE/appcreditscore/access
@@ -1784,6 +1794,7 @@ ecms_web_core_api.renewpingen.history : http://CORE-SERVICE/renewpingen/history
 ecms_web_core_api.renewpingen.list : http://CORE-SERVICE/renewpingen/list
 ecms_web_core_api.renewpingen.productlist : http://CORE-SERVICE/renewpingen/productlist
 ecms_web_core_api.renewpingen.generate : http://CORE-SERVICE/renewpingen/generate
+ecms_web_core_api.renewpingen.cardproductby : http://CORE-SERVICE/renewpingen/cardproductby
 
 # ------------------------------------------------- Distribution ------------------------------------------------------#
 
@@ -1835,6 +1846,11 @@ ecms_web_call_center_api.custxnriskmgt.access : http://CALL-CENTER-SERVICE/custx
 ecms_web_call_center_api.custxnriskmgt.assigntxn : http://CALL-CENTER-SERVICE/custxnriskmgt/assigntxn
 ecms_web_call_center_api.custxnriskmgt.updaterisk : http://CALL-CENTER-SERVICE/custxnriskmgt/updaterisk
 ecms_web_call_center_api.custxnriskmgt.history : http://CALL-CENTER-SERVICE/custxnriskmgt/history
+
+#CUSTOMER CONTACT DETAILS CHANGE REQUEST
+ecms_web_call_center_api.cuscontactdetailschangereq.access: http://CALL-CENTER-SERVICE/cuscontactdetailschangereq/access
+ecms_web_call_center_api.cuscontactdetailschangereq.history: http://CALL-CENTER-SERVICE/cuscontactdetailschangereq/history
+ecms_web_call_center_api.cuscontactdetailschangereq.update: http://CALL-CENTER-SERVICE/cuscontactdetailschangereq/update
 
 #------------------------------------------------ Account level -------------------------------------------------------#
 
@@ -2121,6 +2137,7 @@ ecms_web_call_center_api.acctxnriskmgt.updaterisk : http://CALL-CENTER-SERVICE/a
 ecms_web_call_center_api.templimitchangereq.access : http://CALL-CENTER-SERVICE/templimitchangereq/access
 ecms_web_call_center_api.templimitchangereq.history : http://CALL-CENTER-SERVICE/templimitchangereq/history
 ecms_web_call_center_api.templimitchangereq.add : http://CALL-CENTER-SERVICE/templimitchangereq/add
+ecms_web_call_center_api.templimitchangereq.reject : http://CALL-CENTER-SERVICE/templimitchangereq/add
 
 #Card Activation Confirmation
 ecms_web_call_center_api.cardactivation.access : http://CALL-CENTER-SERVICE/cardactivation/access
@@ -2144,7 +2161,6 @@ ecms_web_debit_issuance_api.app_upd_assign.history : http://DEBIT-SERVICE/app_up
 ecms_web_debit_issuance_api.app_upd_assign.edit : http://DEBIT-SERVICE/app_upd_assign/edit
 ecms_web_debit_issuance_api.app_upd_assign.loadedit : http://DEBIT-SERVICE/app_upd_assign/loadedit
 
-
 #Update Debit Application Capturing
 ecms_web_debit_issuance_api.app_capture_upd.access : http://DEBIT-SERVICE/app_capture_upd/access
 ecms_web_debit_issuance_api.app_capture_upd.data : http://DEBIT-SERVICE/app_capture_upd/data
@@ -2158,12 +2174,6 @@ ecms_web_debit_issuance_api.app_capture_upd.cardProducts : http://DEBIT-SERVICE/
 ecms_web_debit_issuance_api.app_capture_upd.complete : http://DEBIT-SERVICE/app_capture_upd/complete
 ecms_web_debit_issuance_api.app_capture_upd.updpersonaldetails : http://DEBIT-SERVICE/app_capture_upd/updpersonaldetails
 
-
-
-
-
-
-
 #Instant Kyc Debit Application Capturing
 ecms_web_debit_issuance_api.instant_kyc.access : http://DEBIT-SERVICE/instant_kyc/access
 ecms_web_debit_issuance_api.instant_kyc.data : http://DEBIT-SERVICE/instant_kyc/data
@@ -2173,9 +2183,6 @@ ecms_web_debit_issuance_api.instant_kyc.addinstantcard : http://DEBIT-SERVICE/in
 ecms_web_debit_issuance_api.instant_kyc.mandatorydocs : http://DEBIT-SERVICE/instant_kyc/mandatorydocs
 ecms_web_debit_issuance_api.instant_kyc.area : http://DEBIT-SERVICE/instant_kyc/area
 ecms_web_debit_issuance_api.instant_kyc.districtandprovice : http://DEBIT-SERVICE/instant_kyc/districtandprovice
-
-
-#debit_issuance
 
 #Bulk Card Request
 ecms_web_debit_issuance_api.bulkcardreq.access : http://DEBIT-SERVICE/bulkcardreq/access
@@ -2231,6 +2238,7 @@ ecms_web_debit_issuance_api.lettergen.history : http://DEBIT-SERVICE/lettergen/h
 ecms_web_debit_issuance_api.lettergen.view : http://DEBIT-SERVICE/lettergen/view
 ecms_web_debit_issuance_api.lettergen.letterGen : http://DEBIT-SERVICE/lettergen/letterGen
 ecms_web_debit_issuance_api.lettergen.download : http://DEBIT-SERVICE/lettergen/download
+ecms_web_debit_issuance_api.lettergen.product : http://DEBIT-SERVICE/lettergen/product
 
 #Card Reenewal
 ecms_web_core_api.cardrenewal.access : http://CORE-SERVICE/cardrenewal/access
@@ -2238,6 +2246,7 @@ ecms_web_core_api.cardrenewal.list : http://CORE-SERVICE/cardrenewal/list
 ecms_web_core_api.cardrenewal.history : http://CORE-SERVICE/cardrenewal/history
 ecms_web_core_api.cardrenewal.approve : http://CORE-SERVICE/cardrenewal/approve
 ecms_web_core_api.cardrenewal.reject : http://CORE-SERVICE/cardrenewal/reject
+ecms_web_core_api.cardrenewal.cardproductby : http://CORE-SERVICE/cardrenewal/cardproductby
 
 #Loyalty Redeem Request Confirmation
 ecms_web_core_api.loyaltyredeemconf.access : http://CORE-SERVICE/loyaltyredeemconf/access
@@ -2451,6 +2460,7 @@ ecms_web_debit_issuance_api.app_capture.cardTypes : http://DEBIT-SERVICE/app_cap
 ecms_web_debit_issuance_api.app_capture.cardProducts : http://DEBIT-SERVICE/app_capture/cardProducts
 ecms_web_debit_issuance_api.app_capture.complete : http://DEBIT-SERVICE/app_capture/complete
 ecms_web_debit_issuance_api.app_capture.addpersonaldetails : http://DEBIT-SERVICE/app_capture/addpersonaldetails
+ecms_web_debit_issuance_api.app_capture.retrieve_files : http://DEBIT-SERVICE/app_capture/retrieve_files
 
 #Debit Application Verify
 ecms_web_debit_issuance_api.app_verify.access : http://DEBIT-SERVICE/app_verify/access
@@ -2524,6 +2534,17 @@ ecms_web_core_api.fileprocessconfig.history : http://CORE-SERVICE/fileprocesscon
 ecms_web_core_api.fileprocessconfig.list : http://CORE-SERVICE/fileprocessconfig/list
 ecms_web_core_api.fileprocessconfig.access : http://CORE-SERVICE/fileprocessconfig/access
 
+####################################### ACQUIRING CONFIGURATION PAGES ##################################################
+# MVV BIN MANAGEMENT
+ecms_web_acq_api.mvvbin.access : http://ACQUIRING-SERVICE/mvvbin/access
+ecms_web_acq_api.mvvbin.list : http://ACQUIRING-SERVICE/mvvbin/list
+ecms_web_acq_api.mvvbin.dualauthlist : http://ACQUIRING-SERVICE/mvvbin/dualauthlist
+ecms_web_acq_api.mvvbin.history : http://ACQUIRING-SERVICE/mvvbin/history
+ecms_web_acq_api.mvvbin.add : http://ACQUIRING-SERVICE/mvvbin/add
+ecms_web_acq_api.mvvbin.edit : http://ACQUIRING-SERVICE/mvvbin/edit
+ecms_web_acq_api.mvvbin.delete : http://ACQUIRING-SERVICE/mvvbin/delete
+ecms_web_acq_api.mvvbin.confirm : http://ACQUIRING-SERVICE/mvvbin/confirm
+ecms_web_acq_api.mvvbin.reject : http://ACQUIRING-SERVICE/mvvbin/reject
 
 #Standing Order
 ecms_web_core_api.standingordertype.access : http://CORE-SERVICE/standingordertype/access
@@ -2532,3 +2553,63 @@ ecms_web_core_api.standingordertype.history : http://CORE-SERVICE/standingordert
 ecms_web_core_api.standingordertype.add : http://CORE-SERVICE/standingordertype/add
 ecms_web_core_api.standingordertype.edit : http://CORE-SERVICE/standingordertype/edit
 ecms_web_core_api.standingordertype.delete : http://CORE-SERVICE/standingordertype/delete
+ecms_web_core_api.standingordertype.loadcategory : http://CORE-SERVICE/standingordertype/loadcategory
+
+#Debit Card Pin Gen
+ecms_web_debit_issuance_api.pin_generator.access : http://DEBIT-SERVICE/pin_generator/access
+ecms_web_debit_issuance_api.pin_generator.list : http://DEBIT-SERVICE/pin_generator/list
+ecms_web_debit_issuance_api.pin_generator.generate : http://DEBIT-SERVICE/pin_generator/generate
+ecms_web_debit_issuance_api.pin_generator.history : http://DEBIT-SERVICE/pin_generator/history
+ecms_web_debit_issuance_api.pin_generator.cardProducts : http://DEBIT-SERVICE/pin_generator/cardProducts
+
+#Debit Emboss Encode
+ecms_web_debit_issuance_api.debit_embossing_and_encoding.access : http://DEBIT-SERVICE/debit_embossing_and_encoding/access
+ecms_web_debit_issuance_api.debit_embossing_and_encoding.list : http://DEBIT-SERVICE/debit_embossing_and_encoding/list
+ecms_web_debit_issuance_api.debit_embossing_and_encoding.productlist : http://DEBIT-SERVICE/debit_embossing_and_encoding/productlist
+ecms_web_debit_issuance_api.debit_embossing_and_encoding.history : http://DEBIT-SERVICE/debit_embossing_and_encoding/history
+ecms_web_debit_issuance_api.debit_embossing_and_encoding.generate : http://DEBIT-SERVICE/debit_embossing_and_encoding/generate
+ecms_web_debit_issuance_api.debit_embossing_and_encoding.download : http://DEBIT-SERVICE/debit_embossing_and_encoding/download
+
+#Card Pin Distribustion
+ecms_web_debit_issuance_api.card_pin_distribution.access : http://DEBIT-SERVICE/card_pin_distribution/access
+ecms_web_debit_issuance_api.card_pin_distribution.list : http://DEBIT-SERVICE/card_pin_distribution/list
+ecms_web_debit_issuance_api.card_pin_distribution.history : http://DEBIT-SERVICE/card_pin_distribution/history
+ecms_web_debit_issuance_api.card_pin_distribution.distribute : http://DEBIT-SERVICE/card_pin_distribution/distribute
+ecms_web_debit_issuance_api.card_pin_distribution.productlist : http://DEBIT-SERVICE/card_pin_distribution/productlist
+
+#Test
+ecms_web_core_api.secvaluegen.list : http://CORE-SERVICE/secvaluegen/list
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
