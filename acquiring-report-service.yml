@@ -1,8 +1,8 @@
 #----------------------------------------------- Report location dir---------------------------------------------------#
 
-ecms_web_acquiring_report_file.directory.excel : GeneratedReports/
-ecms_web_acquiring_report_file.directory.pdf : GeneratedReports/
-ecms_web_acquiring_report_file.directory.txt : GeneratedReports/
+ecms_web_common_report_file.directory.excel : GeneratedReports/
+ecms_web_common_report_file.directory.pdf : GeneratedReports/
+ecms_web_common_report_file.directory.txt : GeneratedReports/
 
 # ------------------------------------------------- Acquiring Report ------------------------------------------------------#
 # 01 cash advance report
@@ -82,3 +82,4 @@ report_gen_api.upi_merchant_and_terminal_stat : http://192.168.1.150:7000/ecms_r
 
 # 26. UPI Acquiring Transaction Statistics Report
 report_gen_api.upi_acquiring_transaction_stat : http://192.168.1.150:7000/ecms_report_acquiring_api/UPIAcquiringTransactionStatistics
+

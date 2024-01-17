@@ -1,3 +1,4 @@
+#----------------------------------------------- Report location dir---------------------------------------------------#
 
 ecms_web_issuing_report_file.directory.excel : GeneratedReports/
 ecms_web_issuing_report_file.directory.pdf : GeneratedReports/
@@ -21,13 +22,13 @@ report_gen_api.application_reject : http://192.168.1.150:5000/ecms_report_core_a
 report_gen_api.application_summary : http://192.168.1.150:5000/ecms_report_core_api/ApplicationSummaryReport
 
 # 6 card application Report
-report_gen_api.card_application : http://192.168.1.150:5000/ecms_report_core_api/CardApplication
+report_gen_api.card_application : http://192.168.1.150:5000/ecms_report_core_api/CreditCardApplication
 
 # 7 application credit score Report
 report_gen_api.application_creditscore : http://192.168.1.150:5000/ecms_report_core_api/ApplicationCreditScoreReport
 
 # 8 activated not used card Report
-report_gen_api.act_notused : http://192.168.1.150:5000/ecms_report_core_api/activatedNotUsedCard
+report_gen_api.act_notused : http://192.168.1.150:5000/ecms_report_core_api/CreditActivatedNotUsedCard
 
 # 9 card activation Report
 report_gen_api.card_activation : http://192.168.1.150:5000/ecms_report_core_api/cardActivationReport
@@ -39,7 +40,7 @@ report_gen_api.card_distribution : http://192.168.1.150:5000/ecms_report_core_ap
 report_gen_api.card_circulation : http://192.168.1.150:5000/ecms_report_core_api/cardincirculationreport
 
 # 12 card number generation Report
-report_gen_api.card_generation : http://192.168.1.150:5000/ecms_report_core_api/cardnumbergenerationreport
+report_gen_api.card_generation : http://192.168.1.150:5000/ecms_report_core_api/creditcardnumbergenerationreport
 
 # 13 daily transaction detail report
 report_gen_api.daily_transactiondetail : http://192.168.1.150:5000/ecms_report_core_api/dailyTransactionDetailReport
@@ -51,7 +52,7 @@ report_gen_api.embossing_encoding : http://192.168.1.150:5000/ecms_report_core_a
 report_gen_api.pingeneration_mailing : http://192.168.1.150:5000/ecms_report_core_api/PinGenerationAndMailingReport
 
 # 16 card status report
-report_gen_api.card_status : http://192.168.1.150:5000/ecms_report_core_api/cardstatusreport
+report_gen_api.card_status : http://192.168.1.150:5000/ecms_report_core_api/creditcardstatusreport
 
 # 17 card annual fee report
 report_gen_api.card_annualfee : http://192.168.1.150:5000/ecms_report_core_api/CardAnnualFeeReport
@@ -159,6 +160,11 @@ report_gen_api.eod_transaction : http://192.168.1.150:5000/ecms_report_core_api/
 # 51 brh file report
 report_gen_api.brh_file : http://192.168.1.150:5000/ecms_report_core_api/BRH
 
+
+
+# ------------------------------------------------- DEBIT REPORT ------------------------------------------------------#
+
+
 # 52 debit activated not used card Report
 report_gen_api.debit_act_notused : http://192.168.1.150:5000/ecms_report_core_api/DebitActivatedNotUsedCard
 
@@ -166,10 +172,34 @@ report_gen_api.debit_act_notused : http://192.168.1.150:5000/ecms_report_core_ap
 report_gen_api.debit_card_application : http://192.168.1.150:5000/ecms_report_core_api/DebitCardApplication
 
 # 54 debit card number generation Report
-report_gen_api.debit_card_generation : http://192.168.1.150:5000/ecms_report_core_api/DebitCardNumberGeneration
+report_gen_api.debit_card_generation : http://192.168.1.150:5000/ecms_report_core_api/debitcardnumbergenerationreport
 
 # 55 debit card status report
 report_gen_api.debit_card_status : http://192.168.1.150:5000/ecms_report_core_api/DebitCardStatus
 
 # 56 debit transaction details report
 report_gen_api.debit_transaction_details : http://192.168.1.150:5000/ecms_report_core_api/DebitTransactionDetails
+
+# 01 atm with cash report
+report_gen_api.atm_with_cash_report : http://192.168.1.150:5000/ecms_report_core_api/ATMWithCashReport
+
+# 02 payment card circulation report
+report_gen_api.payment_card_circulation_report : http://192.168.1.150:5000/ecms_report_core_api/PaymentCardInCirculationReport
+
+# 03 batch wise card stock maintenance report
+report_gen_api.batch_wise_card_stock_maintenance_report : http://192.168.1.150:5000/ecms_report_core_api/BatchWiseCardStockMaintenanceReport
+
+# 04 Indicators of various payment instruments report
+report_gen_api.Indicators_of_various_payment_instruments_report : http://192.168.1.150:5000/ecms_report_core_api/IndicatorsOfVariousPaymentInstrumentsReport
+
+# 05 iss transaction status report
+report_gen_api.iss_transaction_status_report : http://192.168.1.150:5000/ecms_report_core_api/IssTransactionStatusReport
+
+# 06 management infor system report
+report_gen_api.management_infor_system_report : http://192.168.1.150:5000/ecms_report_core_api/ManagementInformationSystemReport
+
+# 07 overseas transaction report
+report_gen_api.overseas_transaction_report : http://192.168.1.150:5000/ecms_report_core_api/OverseasTXNReport
+
+# 08 risk transaction attempt report
+report_gen_api.risk_transaction_attempt_report : http://192.168.1.150:5000/ecms_report_core_api/RiskTXNAttemptReport

@@ -25,4 +25,4 @@ report_gen_api.internal_user_creation : http://192.168.1.150:6000/ecms_report_co
 report_gen_api.system_userstatus : http://192.168.1.150:6000/ecms_report_core_api/SystemUserStatusReport
 
 # 07 system audit report
-report_gen_api.system_auditreport : http://192.168.1.150:6000/ecms_report_core_api/SystemAduitReport
+report_gen_api.system_auditreport : http://192.168.1.150:6000/ecms_report_core_api/SystemAuditReport
