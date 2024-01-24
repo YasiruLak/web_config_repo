@@ -1730,6 +1730,7 @@ ecms_web_core_api.app_checking.add_remark : http://CORE-SERVICE/app_checking/add
 ecms_web_core_api.app_checking.history : http://CORE-SERVICE/app_checking/history
 ecms_web_core_api.app_checking.viewremark : http://CORE-SERVICE/app_checking/viewremark
 ecms_web_core_api.app_checking.cardProductDes : http://CORE-SERVICE/app_checking/cardProductDes
+ecms_web_core_api.app_checking.establishment_customer : http://CORE-SERVICE/app_checking/establishment_customer
 
 #Credit Application Verify
 ecms_web_core_api.app_verify.access : http://CORE-SERVICE/app_verify/access
@@ -1746,6 +1747,8 @@ ecms_web_core_api.app_verify.onlold : http://CORE-SERVICE/app_verify/onhold
 ecms_web_core_api.app_verify.mandatorydocs : http://CORE-SERVICE/app_verify/mandatorydocs
 ecms_web_core_api.app_verify.retrieve_files : http://CORE-SERVICE/app_verify/retrieve_files
 ecms_web_core_api.app_verify.prev_points : http://CORE-SERVICE/app_verify/prev_points
+ecms_web_core_api.app_verify.deleteDocument : http://CORE-SERVICE/app_verify/deleteDocument
+ecms_web_core_api.app_verify.crib : http://CORE-SERVICE/app_verify/crib
 
 #Application Credit Verify
 ecms_web_core_api.appcreditscore.access : http://CORE-SERVICE/appcreditscore/access
@@ -1818,13 +1821,13 @@ ecms_web_call_center_api.callcentersearch.applicationlist : http://CALL-CENTER-S
 ecms_web_call_center_api.callcentersearch.customeridinfo : http://CALL-CENTER-SERVICE/callcentersearch/customeridinfo
 ecms_web_call_center_api.callcentersearch.searchcustomerbasic : http://CALL-CENTER-SERVICE/callcentersearch/searchcustomerbasic
 ecms_web_call_center_api.callcentersearch.basicsearch : http://CALL-CENTER-SERVICE/callcentersearch/basicsearch
-
 #--------------------------------------------------- Customer level ---------------------------------------------------#
 
 #Customer main view
 ecms_web_call_center_api.cusview.access : http://CALL-CENTER-SERVICE/cusview/access
 ecms_web_call_center_api.cusview.mainview : http://CALL-CENTER-SERVICE/cusview/mainview
 ecms_web_call_center_api.cusview.changedcustomerdetails : http://CALL-CENTER-SERVICE/cusview/changedcustomerdetails
+ecms_web_call_center_api.callcentersearch.customerlist : http://CALL-CENTER-SERVICE/callcentersearch/customerlist
 
 #Customer memos request
 ecms_web_call_center_api.customermemo.access : http://CALL-CENTER-SERVICE/customermemo/access
@@ -1929,6 +1932,10 @@ ecms_web_call_center_api.cardmainview.permlimitchangereqlist : http://CALL-CENTE
 ecms_web_call_center_api.cardmainview.templimitchangereqlist : http://CALL-CENTER-SERVICE/cardmainview/templimitchangereqlist
 ecms_web_call_center_api.cardmainview.limitconfreqlist : http://CALL-CENTER-SERVICE/cardmainview/limitconfreqlist
 ecms_web_call_center_api.cardmainview.tnxdropreqlist : http://CALL-CENTER-SERVICE/cardmainview/tnxdropreqlist
+ecms_web_call_center_api.cardmainview.cardblockhistorylist : http://CALL-CENTER-SERVICE/cardmainview/cardblockhistorylist
+ecms_web_call_center_api.cardmainview.pintryexceedhistorylist : http://CALL-CENTER-SERVICE/cardmainview/pintryexceedhistorylist
+ecms_web_call_center_api.cardmainview.lasttransbackend : http://CALL-CENTER-SERVICE/cardmainview/lasttransbackend
+ecms_web_call_center_api.cardmainview.lasttransonline : http://CALL-CENTER-SERVICE/cardmainview/lasttransonline
 
 #Loan on card request
 ecms_web_call_center_api.loanoncardreq.access : http://CALL-CENTER-SERVICE/loanoncardreq/access
