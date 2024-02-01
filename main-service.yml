@@ -1811,6 +1811,7 @@ ecms_web_core_api.cardpindistribution.updatepindistribution : http://CORE-SERVIC
 #call center search
 ecms_web_call_center_api.callcentersearch.access : http://CALL-CENTER-SERVICE/callcentersearch/access
 ecms_web_call_center_api.callcentersearch.verificationquestion : http://CALL-CENTER-SERVICE/callcentersearch/verificationquestion
+ecms_web_call_center_api.callcentersearch.adverificationquestion : http://CALL-CENTER-SERVICE/callcentersearch/adverificationquestion
 ecms_web_call_center_api.callcentersearch.advancedsearch : http://CALL-CENTER-SERVICE/callcentersearch/advancedsearch
 ecms_web_call_center_api.callcentersearch.verify : http://CALL-CENTER-SERVICE/callcentersearch/verify
 ecms_web_call_center_api.callcentersearch.reject : http://CALL-CENTER-SERVICE/callcentersearch/reject
@@ -1820,7 +1821,6 @@ ecms_web_call_center_api.callcentersearch.accountlist : http://CALL-CENTER-SERVI
 ecms_web_call_center_api.callcentersearch.applicationlist : http://CALL-CENTER-SERVICE/callcentersearch/applicationlist
 ecms_web_call_center_api.callcentersearch.customeridinfo : http://CALL-CENTER-SERVICE/callcentersearch/customeridinfo
 ecms_web_call_center_api.callcentersearch.searchcustomerbasic : http://CALL-CENTER-SERVICE/callcentersearch/searchcustomerbasic
-ecms_web_call_center_api.callcentersearch.basicsearch : http://CALL-CENTER-SERVICE/callcentersearch/basicsearch
 #--------------------------------------------------- Customer level ---------------------------------------------------#
 
 #Customer main view
@@ -1918,6 +1918,11 @@ ecms_web_call_center_api.stmntcopyreq.customerpersonaldetails : http://CALL-CENT
 ecms_web_call_center_api.stmntcopyreq.statementreqdetails : http://CALL-CENTER-SERVICE/stmntcopyreq/statementreqdetails
 ecms_web_call_center_api.stmntcopyreq.view : http://CALL-CENTER-SERVICE/stmntcopyreq/view
 
+#Loyalty redeem request
+ecms_web_call_center_api.loyaltyredeemreq.access : http://CALL-CENTER-SERVICE/loyaltyredeemreq/access
+ecms_web_call_center_api.loyaltyredeemreq.history : http://CALL-CENTER-SERVICE/loyaltyredeemreq/history
+ecms_web_call_center_api.loyaltyredeemreq.add : http://CALL-CENTER-SERVICE/loyaltyredeemreq/add
+
 #------------------------------------------------- Card level ---------------------------------------------------------#
 #Card Main View
 ecms_web_call_center_api.cardmainview.access : http://CALL-CENTER-SERVICE/cardmainview/access
@@ -1936,6 +1941,7 @@ ecms_web_call_center_api.cardmainview.cardblockhistorylist : http://CALL-CENTER-
 ecms_web_call_center_api.cardmainview.pintryexceedhistorylist : http://CALL-CENTER-SERVICE/cardmainview/pintryexceedhistorylist
 ecms_web_call_center_api.cardmainview.lasttransbackend : http://CALL-CENTER-SERVICE/cardmainview/lasttransbackend
 ecms_web_call_center_api.cardmainview.lasttransonline : http://CALL-CENTER-SERVICE/cardmainview/lasttransonline
+
 
 #Loan on card request
 ecms_web_call_center_api.loanoncardreq.access : http://CALL-CENTER-SERVICE/loanoncardreq/access
@@ -2082,6 +2088,7 @@ ecms_web_core_api.crofficerreview.submit: http://CORE-SERVICE/crofficerreview/su
 ecms_web_core_api.crofficerreview.breakdown: http://CORE-SERVICE/crofficerreview/breakdown
 ecms_web_core_api.crofficerreview.mandatorydocs: http://CORE-SERVICE/crofficerreview/mandatorydocs
 ecms_web_core_api.crofficerreview.retrieve_files: http://CORE-SERVICE/crofficerreview/retrieve_files
+ecms_web_core_api.crofficerreview.upload_letter: http://CORE-SERVICE/crofficerreview/upload_letter
 ecms_web_core_api.crofficerreview.information: http://CORE-SERVICE/crofficerreview/information
 
 #Credit Application Confirmation
@@ -2105,6 +2112,8 @@ ecms_web_call_center_api.easypayment.access : http://CALL-CENTER-SERVICE/easypay
 ecms_web_call_center_api.easypayment.list : http://CALL-CENTER-SERVICE/easypayment/list
 ecms_web_call_center_api.easypayment.history : http://CALL-CENTER-SERVICE/easypayment/history
 ecms_web_call_center_api.easypayment.add : http://CALL-CENTER-SERVICE/easypayment/add
+ecms_web_call_center_api.easypayment.payplandetails : http://CALL-CENTER-SERVICE/easypayment/payplandetails
+ecms_web_call_center_api.easypayment.calculate : http://CALL-CENTER-SERVICE/easypayment/calculate
 
 #Easy Payment Acceleration Request
 ecms_web_call_center_api.easypayacceleration.access : http://CALL-CENTER-SERVICE/easypayacceleration/access
@@ -2275,7 +2284,8 @@ ecms_web_core_api.loyaltyredeemconf.approve : http://CORE-SERVICE/loyaltyredeemc
 ecms_web_core_api.loyaltyredeemconf.reject : http://CORE-SERVICE/loyaltyredeemconf/reject
 
 #Auto Settlement Confirmation
-ecms_web_core_api.autosettlementconf.list : http://CORE-SERVICE/autosettlementconf/list
+ecms_web_core_api.autosettlementconf.addList : http://CORE-SERVICE/autosettlementconf/addList
+ecms_web_core_api.autosettlementconf.updateList : http://CORE-SERVICE/autosettlementconf/updateList
 ecms_web_core_api.autosettlementconf.access : http://CORE-SERVICE/autosettlementconf/access
 ecms_web_core_api.autosettlementconf.history : http://CORE-SERVICE/autosettlementconf/history
 ecms_web_core_api.autosettlementconf.approve : http://CORE-SERVICE/autosettlementconf/approve
