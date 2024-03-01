@@ -1448,6 +1448,15 @@ ecms_web_core_api.card-product.delete : http://CORE-SERVICE/card-product/delete
 
 # ------------------------------ Back Office Operations Issuing ------------------------------------ #
 
+#Manual Adjustment Request
+ecms_web_core_api.adjustmentreq.access : http://CORE-SERVICE/adjustmentreq/access
+ecms_web_core_api.adjustmentreq.list : http://CORE-SERVICE/adjustmentreq/list
+ecms_web_core_api.adjustmentreq.history : http://CORE-SERVICE/adjustmentreq/history
+ecms_web_core_api.adjustmentreq.details : http://CORE-SERVICE/adjustmentreq/details
+ecms_web_core_api.adjustmentreq.dropdown : http://CORE-SERVICE/adjustmentreq/dropdown
+ecms_web_core_api.adjustmentreq.add : http://CORE-SERVICE/adjustmentreq/add
+ecms_web_core_api.adjustmentreq.edit : http://CORE-SERVICE/adjustmentreq/edit
+
 #PIN Count Reset Request Confirmation
 ecms_web_core_api.pincount.access : http://CORE-SERVICE/pincount/access
 ecms_web_core_api.pincount.list : http://CORE-SERVICE/pincount/list
@@ -1699,6 +1708,13 @@ ecms_web_core_api.cuscontact.history : http://CORE-SERVICE/cuscontact/history
 ecms_web_core_api.cuscontact.confirm : http://CORE-SERVICE/cuscontact/confirm
 ecms_web_core_api.cuscontact.reject : http://CORE-SERVICE/cuscontact/reject
 
+#Card Txn Adjustment Confirmation
+ecms_web_core_api.cardtxnadjustmentconfirmation.access : http://CORE-SERVICE/cardtxnadjustmentconfirmation/access
+ecms_web_core_api.cardtxnadjustmentconfirmation.list : http://CORE-SERVICE/cardtxnadjustmentconfirmation/list
+ecms_web_core_api.cardtxnadjustmentconfirmation.history : http://CORE-SERVICE/cardtxnadjustmentconfirmation/history
+ecms_web_core_api.cardtxnadjustmentconfirmation.approve : http://CORE-SERVICE/cardtxnadjustmentconfirmation/approve
+ecms_web_core_api.cardtxnadjustmentconfirmation.reject : http://CORE-SERVICE/cardtxnadjustmentconfirmation/reject
+
 # --------------------------------------------------- Standing order --------------------------------------------------#
 
 #Utility Standing Order
@@ -1743,7 +1759,7 @@ ecms_web_core_api.app_verify.history : http://CORE-SERVICE/app_verify/history
 ecms_web_core_api.app_verify.uploadfile : http://CORE-SERVICE/app_verify/uploadfile
 ecms_web_core_api.app_verify.prevapplications : http://CORE-SERVICE/app_verify/prevapplications
 ecms_web_core_api.app_verify.reject : http://CORE-SERVICE/app_verify/reject
-ecms_web_core_api.app_verify.onlold : http://CORE-SERVICE/app_verify/onhold
+ecms_web_core_api.app_verify.onhold : http://CORE-SERVICE/app_verify/onhold
 ecms_web_core_api.app_verify.mandatorydocs : http://CORE-SERVICE/app_verify/mandatorydocs
 ecms_web_core_api.app_verify.retrieve_files : http://CORE-SERVICE/app_verify/retrieve_files
 ecms_web_core_api.app_verify.prev_points : http://CORE-SERVICE/app_verify/prev_points
@@ -1870,6 +1886,9 @@ ecms_web_call_center_api.accview.cashbackenrolreqlist : http://CALL-CENTER-SERVI
 ecms_web_call_center_api.accview.cashbackreddemreqlist : http://CALL-CENTER-SERVICE/accview/cashbackreddemreqlist
 ecms_web_call_center_api.accview.stmtcopyreqlist : http://CALL-CENTER-SERVICE/accview/stmtcopyreqlist
 ecms_web_call_center_api.accview.stmtlist : http://CALL-CENTER-SERVICE/accview/stmtlist
+ecms_web_call_center_api.accview.stmtdownload : http://CALL-CENTER-SERVICE/accview/stmtdownload
+ecms_web_call_center_api.accview.stmtcurview : http://CALL-CENTER-SERVICE/accview/stmtcurview
+ecms_web_call_center_api.accview.currentstmtdownload : http://CALL-CENTER-SERVICE/accview/currentstmtdownload
 
 #Autosettlement request
 ecms_web_call_center_api.autosetrequest.access : http://CALL-CENTER-SERVICE/autosetrequest/access
@@ -1965,6 +1984,7 @@ ecms_web_call_center_api.onlinebalance.access : http://CALL-CENTER-SERVICE/onlin
 ecms_web_call_center_api.onlinebalance.history : http://CALL-CENTER-SERVICE/onlinebalance/history
 ecms_web_call_center_api.onlinebalance.view : http://CALL-CENTER-SERVICE/onlinebalance/view
 ecms_web_call_center_api.onlinebalance.list : http://CALL-CENTER-SERVICE/onlinebalance/list
+ecms_web_call_center_api.onlinebalance.viewOnlineBal : http://CALL-CENTER-SERVICE/onlinebalance/viewOnlineBal
 
 #Pin count reset
 ecms_web_call_center_api.pincountreset.access : http://CALL-CENTER-SERVICE/pincountreset/access
@@ -2023,6 +2043,7 @@ ecms_web_core_api.app_capture_upd.updpersonaldetails : http://CORE-SERVICE/app_c
 ecms_web_core_api.app_capture_upd.updemployeedetails : http://CORE-SERVICE/app_capture_upd/updemployeedetails
 ecms_web_core_api.app_capture_upd.updbankdetails : http://CORE-SERVICE/app_capture_upd/updbankdetails
 ecms_web_core_api.app_capture_upd.updincomedetails : http://CORE-SERVICE/app_capture_upd/updincomedetails
+ecms_web_core_api.app_capture_upd.updfinancedetails : http://CORE-SERVICE/app_capture_upd/updfinancedetails
 ecms_web_core_api.app_capture_upd.upddocumentdetails : http://CORE-SERVICE/app_capture_upd/upddocumentdetails
 ecms_web_core_api.app_capture_upd.updotherdetails : http://CORE-SERVICE/app_capture_upd/updotherdetails
 ecms_web_core_api.app_capture_upd.customerdetails : http://CORE-SERVICE/app_capture_upd/customerdetails
