@@ -1838,10 +1838,7 @@ ecms_web_call_center_api.callcentersearch.accountlist : http://CALL-CENTER-SERVI
 ecms_web_call_center_api.callcentersearch.applicationlist : http://CALL-CENTER-SERVICE/callcentersearch/applicationlist
 ecms_web_call_center_api.callcentersearch.customeridinfo : http://CALL-CENTER-SERVICE/callcentersearch/customeridinfo
 ecms_web_call_center_api.callcentersearch.searchcustomerbasic : http://CALL-CENTER-SERVICE/callcentersearch/searchcustomerbasic
-
-
 #--------------------------------------------------- Customer level ---------------------------------------------------#
-
 
 #Customer main view
 ecms_web_call_center_api.cusview.access : http://CALL-CENTER-SERVICE/cusview/access
@@ -1877,9 +1874,7 @@ ecms_web_call_center_api.debitcuscontactdetailschangereq.access: http://CALL-CEN
 ecms_web_call_center_api.debitcuscontactdetailschangereq.history: http://CALL-CENTER-SERVICE/debitcuscontactdetailschangereq/history
 ecms_web_call_center_api.debitcuscontactdetailschangereq.update: http://CALL-CENTER-SERVICE/debitcuscontactdetailschangereq/update
 
-
 #------------------------------------------------ Account level -------------------------------------------------------#
-
 
 #Account main view
 ecms_web_call_center_api.accview.access : http://CALL-CENTER-SERVICE/accview/access
@@ -1948,10 +1943,7 @@ ecms_web_call_center_api.loyaltyredeemreq.access : http://CALL-CENTER-SERVICE/lo
 ecms_web_call_center_api.loyaltyredeemreq.history : http://CALL-CENTER-SERVICE/loyaltyredeemreq/history
 ecms_web_call_center_api.loyaltyredeemreq.add : http://CALL-CENTER-SERVICE/loyaltyredeemreq/add
 
-
 #------------------------------------------------- Card level ---------------------------------------------------------#
-
-
 #Card Main View
 ecms_web_call_center_api.cardmainview.access : http://CALL-CENTER-SERVICE/cardmainview/access
 ecms_web_call_center_api.cardmainview.utilitystandingorderlist : http://CALL-CENTER-SERVICE/cardmainview/utilitystandingorderlist
@@ -1969,6 +1961,7 @@ ecms_web_call_center_api.cardmainview.cardblockhistorylist : http://CALL-CENTER-
 ecms_web_call_center_api.cardmainview.pintryexceedhistorylist : http://CALL-CENTER-SERVICE/cardmainview/pintryexceedhistorylist
 ecms_web_call_center_api.cardmainview.lasttransbackend : http://CALL-CENTER-SERVICE/cardmainview/lasttransbackend
 ecms_web_call_center_api.cardmainview.lasttransonline : http://CALL-CENTER-SERVICE/cardmainview/lasttransonline
+
 
 #Loan on card request
 ecms_web_call_center_api.loanoncardreq.access : http://CALL-CENTER-SERVICE/loanoncardreq/access
@@ -2209,6 +2202,7 @@ ecms_web_debit_issuance_api.app_upd_assign.history : http://DEBIT-SERVICE/app_up
 ecms_web_debit_issuance_api.app_upd_assign.edit : http://DEBIT-SERVICE/app_upd_assign/edit
 ecms_web_debit_issuance_api.app_upd_assign.loadedit : http://DEBIT-SERVICE/app_upd_assign/loadedit
 
+
 #Update Debit Application Capturing
 ecms_web_debit_issuance_api.app_capture_upd.access : http://DEBIT-SERVICE/app_capture_upd/access
 ecms_web_debit_issuance_api.app_capture_upd.data : http://DEBIT-SERVICE/app_capture_upd/data
@@ -2222,6 +2216,12 @@ ecms_web_debit_issuance_api.app_capture_upd.cardProducts : http://DEBIT-SERVICE/
 ecms_web_debit_issuance_api.app_capture_upd.complete : http://DEBIT-SERVICE/app_capture_upd/complete
 ecms_web_debit_issuance_api.app_capture_upd.updpersonaldetails : http://DEBIT-SERVICE/app_capture_upd/updpersonaldetails
 
+
+
+
+
+
+
 #Instant Kyc Debit Application Capturing
 ecms_web_debit_issuance_api.instant_kyc.access : http://DEBIT-SERVICE/instant_kyc/access
 ecms_web_debit_issuance_api.instant_kyc.data : http://DEBIT-SERVICE/instant_kyc/data
@@ -2233,8 +2233,7 @@ ecms_web_debit_issuance_api.instant_kyc.area : http://DEBIT-SERVICE/instant_kyc/
 ecms_web_debit_issuance_api.instant_kyc.districtandprovice : http://DEBIT-SERVICE/instant_kyc/districtandprovice
 
 
-#------------------------------------------------------debit_issuance--------------------------------------------------#
-
+#debit_issuance
 
 #Bulk Card Request
 ecms_web_debit_issuance_api.bulkcardreq.access : http://DEBIT-SERVICE/bulkcardreq/access
@@ -2557,8 +2556,8 @@ ecms_web_debit_issuance_api.app_verify_confirm.card_templates : http://DEBIT-SER
 ecms_web_debit_issuance_api.app_verify_confirm.account_templates : http://DEBIT-SERVICE/app_verify/account_templates
 
 
-#------------------------------------------EOD File Processing Common Configuration------------------------------------#
 
+#-------------------EOD File Processing Common Configuration------------------------------------------------------------
 
 ecms_web_core_api.fileprocessconfig.delete : http://CORE-SERVICE/fileprocessconfig/delete
 ecms_web_core_api.fileprocessconfig.edit : http://CORE-SERVICE/fileprocessconfig/edit
@@ -2566,6 +2565,7 @@ ecms_web_core_api.fileprocessconfig.add : http://CORE-SERVICE/fileprocessconfig/
 ecms_web_core_api.fileprocessconfig.history : http://CORE-SERVICE/fileprocessconfig/history
 ecms_web_core_api.fileprocessconfig.list : http://CORE-SERVICE/fileprocessconfig/list
 ecms_web_core_api.fileprocessconfig.access : http://CORE-SERVICE/fileprocessconfig/access
+
 
 #Debit Card Request Confirmation
 ecms_web_debit_issuance_api.debcardreqconf.access : http://DEBIT-SERVICE/debcardreqconf/access
@@ -2582,14 +2582,14 @@ ecms_web_debit_issuance_api.debitchangereqconf.reject : http://DEBIT-SERVICE/deb
 ecms_web_debit_issuance_api.debitchangereqconf.history : http://DEBIT-SERVICE/debitchangereqconf/history
 
 
-# ------------------------------------- ACQUIRING CONFIGURATION PAGES -------------------------------------------------#
-
+# --------------------- ACQUIRING CONFIGURATION PAGES ----------------------------
 # Document Type Management
 ecms_web_acq_api.document-type.access : http://ACQUIRING-SERVICE/document-type/access
+ecms_web_acq_api.document-type.merchant-types : http://ACQUIRING-SERVICE/document-type/merchant-types
 ecms_web_acq_api.document-type.list : http://ACQUIRING-SERVICE/document-type/list
 ecms_web_acq_api.document-type.dualauthlist : http://ACQUIRING-SERVICE/document-type/dualauthlist
 ecms_web_acq_api.document-type.history : http://ACQUIRING-SERVICE/document-type/history
-ecms_web_acq_api.document-type.add : http://ACQUIRING-SERVICE/document-type/add
+ecms_web_acq_api.document-type.add-doc : http://ACQUIRING-SERVICE/document-type/add-doc
 ecms_web_acq_api.document-type.edit : http://ACQUIRING-SERVICE/document-type/edit
 ecms_web_acq_api.document-type.delete : http://ACQUIRING-SERVICE/document-type/delete
 ecms_web_acq_api.document-type.confirm : http://ACQUIRING-SERVICE/document-type/confirm
@@ -2690,12 +2690,23 @@ ecms_web_acq_api.terminalreg.access : http://ACQUIRING-SERVICE/terminalreg/acces
 ecms_web_acq_api.terminalreg.list : http://ACQUIRING-SERVICE/terminalreg/list
 ecms_web_acq_api.terminalreg.history : http://ACQUIRING-SERVICE/terminalreg/history
 ecms_web_acq_api.terminalreg.assign : http://ACQUIRING-SERVICE/terminalreg/assign
+ecms_web_acq_api.terminalreg.update : http://ACQUIRING-SERVICE/terminalreg/update
+ecms_web_acq_api.terminalreg.delete : http://ACQUIRING-SERVICE/terminalreg/delete
+ecms_web_acq_api.terminalreg.save : http://ACQUIRING-SERVICE/terminalreg/save
+ecms_web_acq_api.terminalreg.terminalList : http://ACQUIRING-SERVICE/terminalreg/terminalList
+ecms_web_acq_api.terminalreg.modelLoad : http://ACQUIRING-SERVICE/terminalreg/modelLoad
+ecms_web_acq_api.terminalreg.binLoad : http://ACQUIRING-SERVICE/terminalreg/binLoad
+ecms_web_acq_api.terminalreg.generateMPan : http://ACQUIRING-SERVICE/terminalreg/generateMPan
+ecms_web_acq_api.terminalreg.QRDownload : http://ACQUIRING-SERVICE/terminalreg/QRDownload
+ecms_web_acq_api.terminalreg.QRGenerate : http://ACQUIRING-SERVICE/terminalreg/QRGenerate
 
 #Terminal Operations
 ecms_web_acq_api.terminaloperation.access : http://ACQUIRING-SERVICE/terminaloperation/access
 ecms_web_acq_api.terminaloperation.list : http://ACQUIRING-SERVICE/terminaloperation/list
 ecms_web_acq_api.terminaloperation.history : http://ACQUIRING-SERVICE/terminaloperation/history
-ecms_web_acq_api.terminaloperation.assign : http://ACQUIRING-SERVICE/terminaloperation/assign
+ecms_web_acq_api.terminaloperation.activate : http://ACQUIRING-SERVICE/terminaloperation/activate
+ecms_web_acq_api.terminaloperation.deactivate : http://ACQUIRING-SERVICE/terminaloperation/deactivate
+ecms_web_acq_api.terminaloperation.block : http://ACQUIRING-SERVICE/terminaloperation/block
 
 #Acquiring Transaction Types
 ecms_web_acq_api.acqtransactiontypes.access : http://ACQUIRING-SERVICE/acqtransactiontypes/access
@@ -2714,18 +2725,38 @@ ecms_web_acq_api.listenertransaction.history : http://ACQUIRING-SERVICE/listener
 ecms_web_acq_api.listenertransaction.assign : http://ACQUIRING-SERVICE/listenertransaction/add
 ecms_web_acq_api.listenertransaction.update : http://ACQUIRING-SERVICE/listenertransaction/update
 ecms_web_acq_api.listenertransaction.delete : http://ACQUIRING-SERVICE/listenertransaction/delete
+ecms_web_acq_api.listenertransaction.dualauthlist : http://ACQUIRING-SERVICE/listenertransaction/dualauthlist
 
 #Merchant Security Questions
 ecms_web_acq_api.merchantsecurityquestions.access : http://ACQUIRING-SERVICE/merchantsecurityquestions/access
 ecms_web_acq_api.merchantsecurityquestions.list : http://ACQUIRING-SERVICE/merchantsecurityquestions/list
 ecms_web_acq_api.merchantsecurityquestions.history : http://ACQUIRING-SERVICE/merchantsecurityquestions/history
-ecms_web_acq_api.merchantsecurityquestions.assign : http://ACQUIRING-SERVICE/merchantsecurityquestions/add
+ecms_web_acq_api.merchantsecurityquestions.assign : http://ACQUIRING-SERVICE/merchantsecurityquestions/assign
 ecms_web_acq_api.merchantsecurityquestions.update : http://ACQUIRING-SERVICE/merchantsecurityquestions/update
 ecms_web_acq_api.merchantsecurityquestions.delete : http://ACQUIRING-SERVICE/merchantsecurityquestions/delete
+ecms_web_acq_api.merchantsecurityquestions.loadfields : http://ACQUIRING-SERVICE/merchantsecurityquestions/loadfields
 
 #Acquiring Merchant Customer Manager
 ecms_web_acq_api.mcmanager.access : http://ACQUIRING-SERVICE/mcmanager/access
 ecms_web_acq_api.mcmanager.list : http://ACQUIRING-SERVICE/mcmanager/list
+ecms_web_acq_api.mcmanager.data : http://ACQUIRING-SERVICE/mcmanager/data
+ecms_web_acq_api.mcmanager.common-dropdown : http://ACQUIRING-SERVICE/mcmanager/common-dropdown
+ecms_web_acq_api.mcmanager.core-data : http://ACQUIRING-SERVICE/mcmanager/core-data
+ecms_web_acq_api.mcmanager.core-account-data : http://ACQUIRING-SERVICE/mcmanager/core-account-data
+ecms_web_acq_api.mcmanager.addmerchantdata : http://ACQUIRING-SERVICE/mcmanager/addmerchantdata
+ecms_web_acq_api.mcmanager.updatemerchantdata : http://ACQUIRING-SERVICE/mcmanager/updatemerchantdata
+ecms_web_acq_api.mcmanager.merchant-mgt : http://ACQUIRING-SERVICE/mcmanager/merchant-mgt
+
+#Acquiring Merchant Location Manager
+ecms_web_acq_api.mlmanager.access : http://ACQUIRING-SERVICE/mlmanager/access
+ecms_web_acq_api.mlmanager.list : http://ACQUIRING-SERVICE/mlmanager/list
+ecms_web_acq_api.mlmanager.view : http://ACQUIRING-SERVICE/mlmanager/view
+ecms_web_acq_api.mlmanager.common-dropdown : http://ACQUIRING-SERVICE/mlmanager/common-dropdown
+ecms_web_acq_api.mlmanager.core-data : http://ACQUIRING-SERVICE/mlmanager/core-data
+ecms_web_acq_api.mlmanager.core-account-data : http://ACQUIRING-SERVICE/mlmanager/core-account-data
+ecms_web_acq_api.mlmanager.merchant-cif-data : http://ACQUIRING-SERVICE/mlmanager/merchant-cif-data
+ecms_web_acq_api.mlmanager.generate-loc-id : http://ACQUIRING-SERVICE/mlmanager/generate-loc-id
+
 
 #QR User Generation
 ecms_web_acq_api.qrusergenerate.access : http://ACQUIRING-SERVICE/qrusergenerate/access
@@ -2735,3 +2766,32 @@ ecms_web_acq_api.qrusergenerate.history : http://ACQUIRING-SERVICE/qrusergenerat
 ecms_web_acq_api.qrusergenerate.generateUsername : http://ACQUIRING-SERVICE/qrusergenerate/generateUsername
 ecms_web_acq_api.qrusergenerate.generatePassword : http://ACQUIRING-SERVICE/qrusergenerate/generatePassword
 ecms_web_acq_api.qrusergenerate.sendUserAndPassword : http://ACQUIRING-SERVICE/qrusergenerate/sendUserAndPassword
+
+#Terminal Manufacture
+ecms_web_acq_api.terminal.access : http://ACQUIRING-SERVICE/terminalmanufacture/access
+ecms_web_acq_api.terminal.list : http://ACQUIRING-SERVICE/terminalmanufacture/list
+ecms_web_acq_api.terminal.history : http://ACQUIRING-SERVICE/terminalmanufacture/history
+ecms_web_acq_api.terminal.add : http://ACQUIRING-SERVICE/terminalmanufacture/add
+ecms_web_acq_api.terminal.edit : http://ACQUIRING-SERVICE/terminalmanufacture/edit
+ecms_web_acq_api.terminal.delete : http://ACQUIRING-SERVICE/terminalmanufacture/delete
+ecms_web_acq_api.terminal.dualauthlist : http://ACQUIRING-SERVICE/terminalmanufacture/dualauthlist
+ecms_web_acq_api.terminal.confirm : http://ACQUIRING-SERVICE/terminalmanufacture/confirm
+ecms_web_acq_api.terminal.reject : http://ACQUIRING-SERVICE/terminalmanufacture/reject
+
+#QR User Role Mgt
+ecms_web_acq_api.qruserrole.access : http://ACQUIRING-SERVICE/qruserrole/access
+ecms_web_acq_api.qruserrole.list : http://ACQUIRING-SERVICE/qruserrole/list
+ecms_web_acq_api.qruserrole.add : http://ACQUIRING-SERVICE/qruserrole/add
+ecms_web_acq_api.qruserrole.history: http://ACQUIRING-SERVICE/qruserrole/history
+ecms_web_acq_api.qruserrole.edit: http://ACQUIRING-SERVICE/qruserrole/edit
+ecms_web_acq_api.qruserrole.delete: http://ACQUIRING-SERVICE/qruserrole/delete
+
+
+############## Call Center New Changes Start Here ##########################
+
+# Service Request Workspace
+ecms_web_call_center_api.request-workspace.accounts : http://CALL-CENTER-SERVICE/request-workspace/accounts
+ecms_web_call_center_api.request-workspace.cards : http://CALL-CENTER-SERVICE/request-workspace/cards
+ecms_web_call_center_api.request-workspace.customer : http://CALL-CENTER-SERVICE/request-workspace/customer
+
+############## Call Center New Changes End Here ##########################

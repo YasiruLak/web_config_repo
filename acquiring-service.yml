@@ -1,138 +1,146 @@
 # --------------------- ACQUIRING CONFIGURATION PAGES ----------------------------
 # Document Type Management
-ecms_web_acq_api.document-type.access : http://ACQUIRING-SERVICE/document-type/access
-ecms_web_acq_api.document-type.list : http://ACQUIRING-SERVICE/document-type/list
-ecms_web_acq_api.document-type.dualauthlist : http://ACQUIRING-SERVICE/document-type/dualauthlist
-ecms_web_acq_api.document-type.history : http://ACQUIRING-SERVICE/document-type/history
-ecms_web_acq_api.document-type.add : http://ACQUIRING-SERVICE/document-type/add
-ecms_web_acq_api.document-type.edit : http://ACQUIRING-SERVICE/document-type/edit
-ecms_web_acq_api.document-type.delete : http://ACQUIRING-SERVICE/document-type/delete
-ecms_web_acq_api.document-type.confirm : http://ACQUIRING-SERVICE/document-type/confirm
-ecms_web_acq_api.document-type.reject : http://ACQUIRING-SERVICE/document-type/reject
+ecms_web_acq_api.document-type.access: http://ACQUIRING-SERVICE/document-type/access
+ecms_web_acq_api.document-type.list: http://ACQUIRING-SERVICE/document-type/list
+ecms_web_acq_api.document-type.dualauthlist: http://ACQUIRING-SERVICE/document-type/dualauthlist
+ecms_web_acq_api.document-type.history: http://ACQUIRING-SERVICE/document-type/history
+ecms_web_acq_api.document-type.add: http://ACQUIRING-SERVICE/document-type/add
+ecms_web_acq_api.document-type.edit: http://ACQUIRING-SERVICE/document-type/edit
+ecms_web_acq_api.document-type.delete: http://ACQUIRING-SERVICE/document-type/delete
+ecms_web_acq_api.document-type.confirm: http://ACQUIRING-SERVICE/document-type/confirm
+ecms_web_acq_api.document-type.reject: http://ACQUIRING-SERVICE/document-type/reject
 
 # MVV BIN MANAGEMENT
-ecms_web_acq_api.mvvbin.access : http://ACQUIRING-SERVICE/mvvbin/access
-ecms_web_acq_api.mvvbin.list : http://ACQUIRING-SERVICE/mvvbin/list
-ecms_web_acq_api.mvvbin.dualauthlist : http://ACQUIRING-SERVICE/mvvbin/dualauthlist
-ecms_web_acq_api.mvvbin.history : http://ACQUIRING-SERVICE/mvvbin/history
-ecms_web_acq_api.mvvbin.add : http://ACQUIRING-SERVICE/mvvbin/add
-ecms_web_acq_api.mvvbin.edit : http://ACQUIRING-SERVICE/mvvbin/edit
-ecms_web_acq_api.mvvbin.delete : http://ACQUIRING-SERVICE/mvvbin/delete
-ecms_web_acq_api.mvvbin.confirm : http://ACQUIRING-SERVICE/mvvbin/confirm
-ecms_web_acq_api.mvvbin.reject : http://ACQUIRING-SERVICE/mvvbin/reject
-
-# Merchant Statement Cycle
-ecms_web_acq_api.merchant-statement-cycle.access : http://ACQUIRING-SERVICE/merchant-statement-cycle/access
-ecms_web_acq_api.merchant-statement-cycle.list : http://ACQUIRING-SERVICE/merchant-statement-cycle/list
-ecms_web_acq_api.merchant-statement-cycle.dualauthlist : http://ACQUIRING-SERVICE/merchant-statement-cycle/dualauthlist
-ecms_web_acq_api.merchant-statement-cycle.history : http://ACQUIRING-SERVICE/merchant-statement-cycle/history
-ecms_web_acq_api.merchant-statement-cycle.add : http://ACQUIRING-SERVICE/merchant-statement-cycle/add
-ecms_web_acq_api.merchant-statement-cycle.edit : http://ACQUIRING-SERVICE/merchant-statement-cycle/edit
-ecms_web_acq_api.merchant-statement-cycle.delete : http://ACQUIRING-SERVICE/merchant-statement-cycle/delete
-ecms_web_acq_api.merchant-statement-cycle.confirm : http://ACQUIRING-SERVICE/merchant-statement-cycle/confirm
-ecms_web_acq_api.merchant-statement-cycle.reject : http://ACQUIRING-SERVICE/merchant-statement-cycle/reject
-
-# Merchant Payment Cycle
-ecms_web_acq_api.merchant-pay-cycle.access : http://ACQUIRING-SERVICE/merchant-pay-cycle/access
-ecms_web_acq_api.merchant-pay-cycle.list : http://ACQUIRING-SERVICE/merchant-pay-cycle/list
-ecms_web_acq_api.merchant-pay-cycle.dualauthlist : http://ACQUIRING-SERVICE/merchant-pay-cycle/dualauthlist
-ecms_web_acq_api.merchant-pay-cycle.history : http://ACQUIRING-SERVICE/merchant-pay-cycle/history
-ecms_web_acq_api.merchant-pay-cycle.add : http://ACQUIRING-SERVICE/merchant-pay-cycle/add
-ecms_web_acq_api.merchant-pay-cycle.edit : http://ACQUIRING-SERVICE/merchant-pay-cycle/edit
-ecms_web_acq_api.merchant-pay-cycle.delete : http://ACQUIRING-SERVICE/merchant-pay-cycle/delete
-ecms_web_acq_api.merchant-pay-cycle.confirm : http://ACQUIRING-SERVICE/merchant-pay-cycle/confirm
-ecms_web_acq_api.merchant-pay-cycle.reject : http://ACQUIRING-SERVICE/merchant-pay-cycle/reject
+ecms_web_acq_api.mvvbin.access: http://ACQUIRING-SERVICE/mvvbin/access
+ecms_web_acq_api.mvvbin.list: http://ACQUIRING-SERVICE/mvvbin/list
+ecms_web_acq_api.mvvbin.dualauthlist: http://ACQUIRING-SERVICE/mvvbin/dualauthlist
+ecms_web_acq_api.mvvbin.history: http://ACQUIRING-SERVICE/mvvbin/history
+ecms_web_acq_api.mvvbin.add: http://ACQUIRING-SERVICE/mvvbin/add
+ecms_web_acq_api.mvvbin.edit: http://ACQUIRING-SERVICE/mvvbin/edit
+ecms_web_acq_api.mvvbin.delete: http://ACQUIRING-SERVICE/mvvbin/delete
+ecms_web_acq_api.mvvbin.confirm: http://ACQUIRING-SERVICE/mvvbin/confirm
+ecms_web_acq_api.mvvbin.reject: http://ACQUIRING-SERVICE/mvvbin/reject
 
 # Commission Volume Management
-ecms_web_acq_api.commission-volume.access : http://ACQUIRING-SERVICE/commission-volume/access
-ecms_web_acq_api.commission-volume.list : http://ACQUIRING-SERVICE/commission-volume/list
-ecms_web_acq_api.commission-volume.dualauthlist : http://ACQUIRING-SERVICE/commission-volume/dualauthlist
-ecms_web_acq_api.commission-volume.history : http://ACQUIRING-SERVICE/commission-volume/history
-ecms_web_acq_api.commission-volume.add : http://ACQUIRING-SERVICE/commission-volume/add
-ecms_web_acq_api.commission-volume.edit : http://ACQUIRING-SERVICE/commission-volume/edit
-ecms_web_acq_api.commission-volume.delete : http://ACQUIRING-SERVICE/commission-volume/delete
-ecms_web_acq_api.commission-volume.confirm : http://ACQUIRING-SERVICE/commission-volume/confirm
-ecms_web_acq_api.commission-volume.reject : http://ACQUIRING-SERVICE/commission-volume/reject
+ecms_web_acq_api.merchant-statement-cycle.access: http://ACQUIRING-SERVICE/merchant-statement-cycle/access
+ecms_web_acq_api.merchant-statement-cycle.list: http://ACQUIRING-SERVICE/merchant-statement-cycle/list
+ecms_web_acq_api.merchant-statement-cycle.dualauthlist: http://ACQUIRING-SERVICE/merchant-statement-cycle/dualauthlist
+ecms_web_acq_api.merchant-statement-cycle.history: http://ACQUIRING-SERVICE/merchant-statement-cycle/history
+ecms_web_acq_api.merchant-statement-cycle.add: http://ACQUIRING-SERVICE/merchant-statement-cycle/add
+ecms_web_acq_api.merchant-statement-cycle.edit: http://ACQUIRING-SERVICE/merchant-statement-cycle/edit
+ecms_web_acq_api.merchant-statement-cycle.delete: http://ACQUIRING-SERVICE/merchant-statement-cycle/delete
+ecms_web_acq_api.merchant-statement-cycle.confirm: http://ACQUIRING-SERVICE/merchant-statement-cycle/confirm
+ecms_web_acq_api.merchant-statement-cycle.reject: http://ACQUIRING-SERVICE/merchant-statement-cycle/reject
+
+# Merchant Payment Cycle
+ecms_web_acq_api.merchant-pay-cycle.access: http://ACQUIRING-SERVICE/merchant-pay-cycle/access
+ecms_web_acq_api.merchant-pay-cycle.list: http://ACQUIRING-SERVICE/merchant-pay-cycle/list
+ecms_web_acq_api.merchant-pay-cycle.dualauthlist: http://ACQUIRING-SERVICE/merchant-pay-cycle/dualauthlist
+ecms_web_acq_api.merchant-pay-cycle.history: http://ACQUIRING-SERVICE/merchant-pay-cycle/history
+ecms_web_acq_api.merchant-pay-cycle.add: http://ACQUIRING-SERVICE/merchant-pay-cycle/add
+ecms_web_acq_api.merchant-pay-cycle.edit: http://ACQUIRING-SERVICE/merchant-pay-cycle/edit
+ecms_web_acq_api.merchant-pay-cycle.delete: http://ACQUIRING-SERVICE/merchant-pay-cycle/delete
+ecms_web_acq_api.merchant-pay-cycle.confirm: http://ACQUIRING-SERVICE/merchant-pay-cycle/confirm
+ecms_web_acq_api.merchant-pay-cycle.reject: http://ACQUIRING-SERVICE/merchant-pay-cycle/reject
+
+# Commission Volume Management
+ecms_web_acq_api.commission-volume.access: http://ACQUIRING-SERVICE/commission-volume/access
+ecms_web_acq_api.commission-volume.list: http://ACQUIRING-SERVICE/commission-volume/list
+ecms_web_acq_api.commission-volume.dualauthlist: http://ACQUIRING-SERVICE/commission-volume/dualauthlist
+ecms_web_acq_api.commission-volume.history: http://ACQUIRING-SERVICE/commission-volume/history
+ecms_web_acq_api.commission-volume.add: http://ACQUIRING-SERVICE/commission-volume/add
+ecms_web_acq_api.commission-volume.edit: http://ACQUIRING-SERVICE/commission-volume/edit
+ecms_web_acq_api.commission-volume.delete: http://ACQUIRING-SERVICE/commission-volume/delete
+ecms_web_acq_api.commission-volume.confirm: http://ACQUIRING-SERVICE/commission-volume/confirm
+ecms_web_acq_api.commission-volume.reject: http://ACQUIRING-SERVICE/commission-volume/reject
 
 # Terminal Model Mgt
-ecms_web_acq_api.terminalmodel.access : http://ACQUIRING-SERVICE/terminalmodel/access
-ecms_web_acq_api.terminalmodel.list : http://ACQUIRING-SERVICE/terminalmodel/list
-ecms_web_acq_api.terminalmodel.dualauthlist : http://ACQUIRING-SERVICE/terminalmodel/dualauthlist
-ecms_web_acq_api.terminalmodel.history : http://ACQUIRING-SERVICE/terminalmodel/history
-ecms_web_acq_api.terminalmodel.add : http://ACQUIRING-SERVICE/terminalmodel/add
-ecms_web_acq_api.terminalmodel.edit : http://ACQUIRING-SERVICE/terminalmodel/edit
-ecms_web_acq_api.terminalmodel.delete : http://ACQUIRING-SERVICE/terminalmodel/delete
-ecms_web_acq_api.terminalmodel.confirm : http://ACQUIRING-SERVICE/terminalmodel/confirm
-ecms_web_acq_api.terminalmodel.reject : http://ACQUIRING-SERVICE/terminalmodel/reject
+ecms_web_acq_api.terminalmodel.access: http://ACQUIRING-SERVICE/terminalmodel/access
+ecms_web_acq_api.terminalmodel.list: http://ACQUIRING-SERVICE/terminalmodel/list
+ecms_web_acq_api.terminalmodel.dualauthlist: http://ACQUIRING-SERVICE/terminalmodel/dualauthlist
+ecms_web_acq_api.terminalmodel.history: http://ACQUIRING-SERVICE/terminalmodel/history
+ecms_web_acq_api.terminalmodel.add: http://ACQUIRING-SERVICE/terminalmodel/add
+ecms_web_acq_api.terminalmodel.edit: http://ACQUIRING-SERVICE/terminalmodel/edit
+ecms_web_acq_api.terminalmodel.delete: http://ACQUIRING-SERVICE/terminalmodel/delete
+ecms_web_acq_api.terminalmodel.confirm: http://ACQUIRING-SERVICE/terminalmodel/confirm
+ecms_web_acq_api.terminalmodel.reject: http://ACQUIRING-SERVICE/terminalmodel/reject
 
 #BASE CONFIGURATION
-ecms_web_acq_api.baseconfigure.access : http://ACQUIRING-SERVICE/baseconfigure/access
-ecms_web_acq_api.baseconfigure.history : http://ACQUIRING-SERVICE/baseconfigure/history
-ecms_web_acq_api.baseconfigure.save : http://ACQUIRING-SERVICE/baseconfigure/save
+ecms_web_acq_api.baseconfigure.access: http://ACQUIRING-SERVICE/baseconfigure/access
+ecms_web_acq_api.baseconfigure.history: http://ACQUIRING-SERVICE/baseconfigure/history
+ecms_web_acq_api.baseconfigure.save: http://ACQUIRING-SERVICE/baseconfigure/save
 
 #Standing Order
-ecms_web_core_api.standingordertype.access : http://CORE-SERVICE/standingordertype/access
-ecms_web_core_api.standingordertype.list : http://CORE-SERVICE/standingordertype/list
-ecms_web_core_api.standingordertype.history : http://CORE-SERVICE/standingordertype/history
-ecms_web_core_api.standingordertype.add : http://CORE-SERVICE/standingordertype/add
-ecms_web_core_api.standingordertype.edit : http://CORE-SERVICE/standingordertype/edit
-ecms_web_core_api.standingordertype.delete : http://CORE-SERVICE/standingordertype/delete
+ecms_web_core_api.standingordertype.access: http://CORE-SERVICE/standingordertype/access
+ecms_web_core_api.standingordertype.list: http://CORE-SERVICE/standingordertype/list
+ecms_web_core_api.standingordertype.history: http://CORE-SERVICE/standingordertype/history
+ecms_web_core_api.standingordertype.add: http://CORE-SERVICE/standingordertype/add
+ecms_web_core_api.standingordertype.edit: http://CORE-SERVICE/standingordertype/edit
+ecms_web_core_api.standingordertype.delete: http://CORE-SERVICE/standingordertype/delete
 
 #LANKAQR CONFIGURATIONS
-ecms_web_acq_api.lankaqrconf.access : http://ACQUIRING-SERVICE/lankaqrconf/access
-ecms_web_acq_api.lankaqrconf.list : http://ACQUIRING-SERVICE/lankaqrconf/list
-ecms_web_acq_api.lankaqrconf.dualauthlist : http://ACQUIRING-SERVICE/lankaqrconf/dualauthlist
-ecms_web_acq_api.lankaqrconf.history : http://ACQUIRING-SERVICE/lankaqrconf/history
-ecms_web_acq_api.lankaqrconf.add : http://ACQUIRING-SERVICE/lankaqrconf/add
-ecms_web_acq_api.lankaqrconf.update : http://ACQUIRING-SERVICE/lankaqrconf/update
-ecms_web_acq_api.lankaqrconf.delete : http://ACQUIRING-SERVICE/lankaqrconf/delete
-ecms_web_acq_api.lankaqrconf.confirm : http://ACQUIRING-SERVICE/lankaqrconf/confirm
-ecms_web_acq_api.lankaqrconf.reject : http://ACQUIRING-SERVICE/lankaqrconf/reject
+ecms_web_acq_api.lankaqrconf.access: http://ACQUIRING-SERVICE/lankaqrconf/access
+ecms_web_acq_api.lankaqrconf.list: http://ACQUIRING-SERVICE/lankaqrconf/list
+ecms_web_acq_api.lankaqrconf.dualauthlist: http://ACQUIRING-SERVICE/lankaqrconf/dualauthlist
+ecms_web_acq_api.lankaqrconf.history: http://ACQUIRING-SERVICE/lankaqrconf/history
+ecms_web_acq_api.lankaqrconf.add: http://ACQUIRING-SERVICE/lankaqrconf/add
+ecms_web_acq_api.lankaqrconf.update: http://ACQUIRING-SERVICE/lankaqrconf/update
+ecms_web_acq_api.lankaqrconf.delete: http://ACQUIRING-SERVICE/lankaqrconf/delete
+ecms_web_acq_api.lankaqrconf.confirm: http://ACQUIRING-SERVICE/lankaqrconf/confirm
+ecms_web_acq_api.lankaqrconf.reject: http://ACQUIRING-SERVICE/lankaqrconf/reject
 
 #CONVENIENCE FEE PROFILE
-ecms_web_acq_api.confeeprofile.access : http://ACQUIRING-SERVICE/confeeprofile/access
-ecms_web_acq_api.confeeprofile.list : http://ACQUIRING-SERVICE/confeeprofile/list
-ecms_web_acq_api.confeeprofile.dualauthlist : http://ACQUIRING-SERVICE/confeeprofile/dualauthlist
-ecms_web_acq_api.confeeprofile.history : http://ACQUIRING-SERVICE/confeeprofile/history
-ecms_web_acq_api.confeeprofile.add : http://ACQUIRING-SERVICE/confeeprofile/add
-ecms_web_acq_api.confeeprofile.update : http://ACQUIRING-SERVICE/confeeprofile/update
-ecms_web_acq_api.confeeprofile.delete : http://ACQUIRING-SERVICE/confeeprofile/delete
-ecms_web_acq_api.confeeprofile.confirm : http://ACQUIRING-SERVICE/confeeprofile/confirm
-ecms_web_acq_api.confeeprofile.reject : http://ACQUIRING-SERVICE/confeeprofile/reject
+ecms_web_acq_api.confeeprofile.access: http://ACQUIRING-SERVICE/confeeprofile/access
+ecms_web_acq_api.confeeprofile.list: http://ACQUIRING-SERVICE/confeeprofile/list
+ecms_web_acq_api.confeeprofile.dualauthlist: http://ACQUIRING-SERVICE/confeeprofile/dualauthlist
+ecms_web_acq_api.confeeprofile.history: http://ACQUIRING-SERVICE/confeeprofile/history
+ecms_web_acq_api.confeeprofile.add: http://ACQUIRING-SERVICE/confeeprofile/add
+ecms_web_acq_api.confeeprofile.update: http://ACQUIRING-SERVICE/confeeprofile/update
+ecms_web_acq_api.confeeprofile.delete: http://ACQUIRING-SERVICE/confeeprofile/delete
+ecms_web_acq_api.confeeprofile.confirm: http://ACQUIRING-SERVICE/confeeprofile/confirm
+ecms_web_acq_api.confeeprofile.reject: http://ACQUIRING-SERVICE/confeeprofile/reject
 
 #Terminal Registration
-ecms_web_acq_api.terminalreg.access : http://ACQUIRING-SERVICE/terminalreg/access
-ecms_web_acq_api.terminalreg.list : http://ACQUIRING-SERVICE/terminalreg/list
-ecms_web_acq_api.terminalreg.history : http://ACQUIRING-SERVICE/terminalreg/history
-ecms_web_acq_api.terminalreg.assign : http://ACQUIRING-SERVICE/terminalreg/assign
+ecms_web_acq_api.terminalreg.access: http://ACQUIRING-SERVICE/terminalreg/access
+ecms_web_acq_api.terminalreg.list: http://ACQUIRING-SERVICE/terminalreg/list
+ecms_web_acq_api.terminalreg.history: http://ACQUIRING-SERVICE/terminalreg/history
+ecms_web_acq_api.terminalreg.assign: http://ACQUIRING-SERVICE/terminalreg/assign
 
 #Acquiring Transaction Types
-ecms_web_acq_api.acqtransactiontypes.access : http://ACQUIRING-SERVICE/acqtransactiontypes/access
-ecms_web_acq_api.acqtransactiontypes.add : http://ACQUIRING-SERVICE/acqtransactiontypes/add
-ecms_web_acq_api.acqtransactiontypes.list : http://ACQUIRING-SERVICE/acqtransactiontypes/list
-ecms_web_acq_api.acqtransactiontypes.lctypelist : http://ACQUIRING-SERVICE/acqtransactiontypes/lctypelist
-ecms_web_acq_api.acqtransactiontypes.update : http://ACQUIRING-SERVICE/acqtransactiontypes/update
-ecms_web_acq_api.acqtransactiontypes.delete : http://ACQUIRING-SERVICE/acqtransactiontypes/delete
+ecms_web_acq_api.acqtransactiontypes.access: http://ACQUIRING-SERVICE/acqtransactiontypes/access
+ecms_web_acq_api.acqtransactiontypes.add: http://ACQUIRING-SERVICE/acqtransactiontypes/add
+ecms_web_acq_api.acqtransactiontypes.list: http://ACQUIRING-SERVICE/acqtransactiontypes/list
+ecms_web_acq_api.acqtransactiontypes.lctypelist: http://ACQUIRING-SERVICE/acqtransactiontypes/lctypelist
+ecms_web_acq_api.acqtransactiontypes.update: http://ACQUIRING-SERVICE/acqtransactiontypes/update
+ecms_web_acq_api.acqtransactiontypes.delete: http://ACQUIRING-SERVICE/acqtransactiontypes/delete
 
 #Listener Transaction
-ecms_web_acq_api.listenertransaction.access : http://ACQUIRING-SERVICE/listenertransaction/access
-ecms_web_acq_api.listenertransaction.list : http://ACQUIRING-SERVICE/listenertransaction/list
-ecms_web_acq_api.listenertransaction.history : http://ACQUIRING-SERVICE/listenertransaction/history
-ecms_web_acq_api.listenertransaction.assign : http://ACQUIRING-SERVICE/listenertransaction/add
-ecms_web_acq_api.listenertransaction.update : http://ACQUIRING-SERVICE/listenertransaction/update
-ecms_web_acq_api.listenertransaction.delete : http://ACQUIRING-SERVICE/listenertransaction/delete
+ecms_web_acq_api.listenertransaction.access: http://ACQUIRING-SERVICE/listenertransaction/access
+ecms_web_acq_api.listenertransaction.list: http://ACQUIRING-SERVICE/listenertransaction/list
+ecms_web_acq_api.listenertransaction.history: http://ACQUIRING-SERVICE/listenertransaction/history
+ecms_web_acq_api.listenertransaction.assign: http://ACQUIRING-SERVICE/listenertransaction/add
+ecms_web_acq_api.listenertransaction.update: http://ACQUIRING-SERVICE/listenertransaction/update
+ecms_web_acq_api.listenertransaction.delete: http://ACQUIRING-SERVICE/listenertransaction/delete
 
 #Merchant Security Questions
-ecms_web_acq_api.merchantsecurityquestions.access : http://ACQUIRING-SERVICE/merchantsecurityquestions/access
-ecms_web_acq_api.merchantsecurityquestions.list : http://ACQUIRING-SERVICE/merchantsecurityquestions/list
-ecms_web_acq_api.merchantsecurityquestions.history : http://ACQUIRING-SERVICE/merchantsecurityquestions/history
-ecms_web_acq_api.merchantsecurityquestions.assign : http://ACQUIRING-SERVICE/merchantsecurityquestions/add
-ecms_web_acq_api.merchantsecurityquestions.update : http://ACQUIRING-SERVICE/merchantsecurityquestions/update
-ecms_web_acq_api.merchantsecurityquestions.delete : http://ACQUIRING-SERVICE/merchantsecurityquestions/delete
+ecms_web_acq_api.merchantsecurityquestions.access: http://ACQUIRING-SERVICE/merchantsecurityquestions/access
+ecms_web_acq_api.merchantsecurityquestions.list: http://ACQUIRING-SERVICE/merchantsecurityquestions/list
+ecms_web_acq_api.merchantsecurityquestions.history: http://ACQUIRING-SERVICE/merchantsecurityquestions/history
+ecms_web_acq_api.merchantsecurityquestions.assign: http://ACQUIRING-SERVICE/merchantsecurityquestions/add
+ecms_web_acq_api.merchantsecurityquestions.update: http://ACQUIRING-SERVICE/merchantsecurityquestions/update
+ecms_web_acq_api.merchantsecurityquestions.delete: http://ACQUIRING-SERVICE/merchantsecurityquestions/delete
 
 #Acquiring Merchant Customer Manager
-ecms_web_acq_api.mcmanager.access : http://ACQUIRING-SERVICE/mcmanager/access
-ecms_web_acq_api.mcmanager.list : http://ACQUIRING-SERVICE/mcmanager/list
+ecms_web_acq_api.mcmanager.access: http://ACQUIRING-SERVICE/mcmanager/access
+ecms_web_acq_api.mcmanager.list: http://ACQUIRING-SERVICE/mcmanager/list
+
+#Terminal Manufacture
+ecms_web_acq_api.terminal.list : http://ACQUIRING-SERVICE/terminalmanufacture/list
+ecms_web_acq_api.terminal.history : http://ACQUIRING-SERVICE/terminalmanufacture/history
+ecms_web_acq_api.terminal.add : http://ACQUIRING-SERVICE/terminalmanufacture/add
+ecms_web_acq_api.terminal.edit : http://ACQUIRING-SERVICE/terminalmanufacture/edit
+ecms_web_acq_api.terminal.delete : http://ACQUIRING-SERVICE/terminalmanufacture/delete
+ecms_web_acq_api.terminal.dualauthlist : http://ACQUIRING-SERVICE/terminalmanufacture/dualauthlist
 
 #QR User Generation
 ecms_web_acq_api.qrusergenerate.access : http://ACQUIRING-SERVICE/qrusergenerate/access
@@ -142,3 +150,8 @@ ecms_web_acq_api.qrusergenerate.history : http://ACQUIRING-SERVICE/qrusergenerat
 ecms_web_acq_api.qrusergenerate.generateUsername : http://ACQUIRING-SERVICE/qrusergenerate/generateUsername
 ecms_web_acq_api.qrusergenerate.generatePassword : http://ACQUIRING-SERVICE/qrusergenerate/generatePassword
 ecms_web_acq_api.qrusergenerate.sendUserAndPassword : http://ACQUIRING-SERVICE/qrusergenerate/sendUserAndPassword
+
+#QR User Role Mgt
+ecms_web_acq_api.qruserrole.access : http://ACQUIRING-SERVICE/qruserrole/access
+ecms_web_acq_api.qruserrole.list : http://ACQUIRING-SERVICE/qruserrole/list
+ecms_web_acq_api.qruserrole.add : http://ACQUIRING-SERVICE/qruserrole/add

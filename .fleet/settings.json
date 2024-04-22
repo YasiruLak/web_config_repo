@@ -1,0 +1,16 @@
+{
+    "plugins": [
+        {
+            "type": "add",
+            "pluginName": "fleet.yaml"
+        },
+        {
+            "type": "add",
+            "pluginName": "fleet.schema"
+        },
+        {
+            "type": "add",
+            "pluginName": "fleet.diff"
+        }
+    ]
+}
