@@ -37,9 +37,9 @@ spring:
       #      jdbcUrl: ${BACKEND_DB_URL:jdbc:oracle:thin:@192.168.1.149:1522:cmsbkdb}
       jdbcUrl: ${BACKEND_DB_URL:jdbc:oracle:thin:@localhost:1521:orcl}
       #      username: ${BACKEND_USERNAME:CMSPRODUCTBACKENDDEV}
-      username: ${BACKEND_USERNAME:CMSBACKENDDEV}
+      username: ${BACKEND_USERNAME:CMSPRODUCTBACKENDDEV}
       #      password: ${BACKEND_PASSWORD:CMSPRODUCTBACKENDDEV}
-      password: ${BACKEND_PASSWORD:CMSBACKENDDEV}
+      password: ${BACKEND_PASSWORD:CMSPRODUCTBACKENDDEV}
       driverClassName: oracle.jdbc.driver.OracleDriver
       test-on-borrow: true
       validationQuery: SELECT 1 FROM DUAL
@@ -56,9 +56,9 @@ spring:
       # jdbcUrl: ${BACKEND_DB_URL:jdbc:oracle:thin:@192.168.1.149:1522:cmsbkdb}
       jdbcUrl: ${BACKEND_DB_URL:jdbc:oracle:thin:@localhost:1521:orcl}
       #      jdbcUrl: ${BACKEND_DB_URL:jdbc:oracle:thin:@localhost:1521:orcl}
-      username: ${BACKEND_USERNAME:CMSONLINEDEV}
+      username: ${BACKEND_USERNAME:CMSPRODUCTONLINEDEV}
       #      username: ${BACKEND_USERNAME:CMSPRODUCTONLINEDEV}
-      password: ${BACKEND_PASSWORD:CMSONLINEDEV}
+      password: ${BACKEND_PASSWORD:CMSPRODUCTONLINEDEV}
       #      password: ${BACKEND_PASSWORD:CMSPRODUCTONLINEDEV}
       driverClassName: oracle.jdbc.driver.OracleDriver
       test-on-borrow: true
@@ -81,8 +81,8 @@ springdoc:
     operationsSorter: method
 
 #Report module DB Connections
-ecms_report_backend_connection_for_python_url: CMSPRODUCTBACKENDDEV/password@//124.43.16.185:50170/cmsbkdb
-ecms_report_online_connection_for_python_url: CMSPRODUCTONLINEDEV/password@//124.43.16.185:50170/cmsbkdb
+ecms_report_backend_connection_for_python_url: CMSPRODUCTBACKENDDEV/CMSPRODUCTBACKENDDEV@//124.43.16.185:50170/cmsbkdb
+ecms_report_online_connection_for_python_url: CMSPRODUCTONLINEDEV/CMSPRODUCTONLINEDEV@//124.43.16.185:50170/cmsbkdb
 
 #EOD File upload path
 eoduploadpath: '/CMS/EODFILE/'
