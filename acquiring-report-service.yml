@@ -6,80 +6,80 @@ ecms_web_common_report_file.directory.txt : GeneratedReports/
 
 # ------------------------------------------------- Acquiring Report ------------------------------------------------------#
 # 01 cash advance report
-report_gen_api.cash_advance : http://192.168.1.150:7000/ecms_report_acquiring_api/CashAdvance
+report_gen_api.cash_advance : http://192.168.2.23:7000/ecms_report_acquiring_api/CashAdvance
 
 ## 02 daily acq summary report
-#report_gen_api.daily_exception : http://192.168.1.150:7000/ecms_report_acquiring_api/DailyException
+#report_gen_api.daily_exception : http://192.168.2.23:7000/ecms_report_acquiring_api/DailyException
 
 # 03 daily exception report
-report_gen_api.daily_exception : http://192.168.1.150:7000/ecms_report_acquiring_api/DailyException
+report_gen_api.daily_exception : http://192.168.2.23:7000/ecms_report_acquiring_api/DailyException
 
 # 04 daily merchant fee report
-report_gen_api.daily_merchant_fee_adj : http://192.168.1.150:7000/ecms_report_acquiring_api/DailyMerchantFeeAdj
+report_gen_api.daily_merchant_fee_adj : http://192.168.2.23:7000/ecms_report_acquiring_api/DailyMerchantFeeAdj
 
 # 05 daily merchant sales summary report
-report_gen_api.daily_merchant_fee_sales_summary : http://192.168.1.150:7000/ecms_report_acquiring_api/DailyMerchantSalesSummary
+report_gen_api.daily_merchant_fee_sales_summary : http://192.168.2.23:7000/ecms_report_acquiring_api/DailyMerchantSalesSummary
 
 # 06 daily merchant sales summary report
-report_gen_api.eod_merchant_transaction : http://192.168.1.150:7000/ecms_report_acquiring_api/EODMerchantTransaction
+report_gen_api.eod_merchant_transaction : http://192.168.2.23:7000/ecms_report_acquiring_api/EODMerchantTransaction
 
 # 07 daily merchant sales summary report
-report_gen_api.merchant_application_details : http://192.168.1.150:7000/ecms_report_acquiring_api/MerchantApplicationDetails
+report_gen_api.merchant_application_details : http://192.168.2.23:7000/ecms_report_acquiring_api/MerchantApplicationDetails
 
 # 08 merchant commission report
-report_gen_api.merchant_commission : http://192.168.1.150:7000/ecms_report_acquiring_api/MerchantCommission
+report_gen_api.merchant_commission : http://192.168.2.23:7000/ecms_report_acquiring_api/MerchantCommission
 
 # 09 merchant detail report
-report_gen_api.merchant_detail : http://192.168.1.150:7000/ecms_report_acquiring_api/MerchantDetail
+report_gen_api.merchant_detail : http://192.168.2.23:7000/ecms_report_acquiring_api/MerchantDetail
 
 # 10. Merchant Installment Report
-report_gen_api.merchant_installment : http://192.168.1.150:7000/ecms_report_acquiring_api/MerchantInstallment
+report_gen_api.merchant_installment : http://192.168.2.23:7000/ecms_report_acquiring_api/MerchantInstallment
 
 # 11. Merchant Maintenance Report
-report_gen_api.merchant_maintenance : http://192.168.1.150:7000/ecms_report_acquiring_api/MerchantMaintenance
+report_gen_api.merchant_maintenance : http://192.168.2.23:7000/ecms_report_acquiring_api/MerchantMaintenance
 
 # 12. Merchant Payment Report
-report_gen_api.merchant_payment : http://192.168.1.150:7000/ecms_report_acquiring_api/MerchantPayment
+report_gen_api.merchant_payment : http://192.168.2.23:7000/ecms_report_acquiring_api/MerchantPayment
 
 # 13. Merchant Payment Summary Report
-report_gen_api.merchant_payment_summary : http://192.168.1.150:7000/ecms_report_acquiring_api/MerchantPaymentSummary
+report_gen_api.merchant_payment_summary : http://192.168.2.23:7000/ecms_report_acquiring_api/MerchantPaymentSummary
 
 # 14. Merchant Training Report
-report_gen_api.merchant_training : http://192.168.1.150:7000/ecms_report_acquiring_api/MerchantTraining
+report_gen_api.merchant_training : http://192.168.2.23:7000/ecms_report_acquiring_api/MerchantTraining
 
 # 15. Merchant Transaction Details Report
-report_gen_api.merchant_transaction_details : http://192.168.1.150:7000/ecms_report_acquiring_api/MerchantTransactionDetails
+report_gen_api.merchant_transaction_details : http://192.168.2.23:7000/ecms_report_acquiring_api/MerchantTransactionDetails
 
 # 16. Merchant Transaction Summary Report
-report_gen_api.merchant_transaction_summary : http://192.168.1.150:7000/ecms_report_acquiring_api/MerchantTransactionSummary
+report_gen_api.merchant_transaction_summary : http://192.168.2.23:7000/ecms_report_acquiring_api/MerchantTransactionSummary
 
 # 17. Non-Settled Transaction Report
-report_gen_api.non_settled_transaction : http://192.168.1.150:7000/ecms_report_acquiring_api/NonSettledTransaction
+report_gen_api.non_settled_transaction : http://192.168.2.23:7000/ecms_report_acquiring_api/NonSettledTransaction
 
 # 18. Settled Transaction Report
-report_gen_api.settled_transaction : http://192.168.1.150:7000/ecms_report_acquiring_api/SettledTransaction
+report_gen_api.settled_transaction : http://192.168.2.23:7000/ecms_report_acquiring_api/SettledTransaction
 
 # 19. System Generated Merchant Transaction Summary Report
-report_gen_api.sys_gen_merchant_tran_summary : http://192.168.1.150:7000/ecms_report_acquiring_api/SysGenMerchantTranSummary
+report_gen_api.sys_gen_merchant_tran_summary : http://192.168.2.23:7000/ecms_report_acquiring_api/SysGenMerchantTranSummary
 
 # 20. Terminal Detail Report
-report_gen_api.terminal_detail : http://192.168.1.150:7000/ecms_report_acquiring_api/TerminalDetail
+report_gen_api.terminal_detail : http://192.168.2.23:7000/ecms_report_acquiring_api/TerminalDetail
 
 # 21. Mobile Login History Report
-report_gen_api.mobile_login_history : http://192.168.1.150:7000/ecms_report_acquiring_api/MobileLoginHistory
+report_gen_api.mobile_login_history : http://192.168.2.23:7000/ecms_report_acquiring_api/MobileLoginHistory
 
 # 22. Mobile Request Details Report
-report_gen_api.mobile_request_details : http://192.168.1.150:7000/ecms_report_acquiring_api/MobileRequestDetails
+report_gen_api.mobile_request_details : http://192.168.2.23:7000/ecms_report_acquiring_api/MobileRequestDetails
 
 # 23. M-Visa Transaction Report
-report_gen_api.mvisa_transaction : http://192.168.1.150:7000/ecms_report_acquiring_api/MVisaTransaction
+report_gen_api.mvisa_transaction : http://192.168.2.23:7000/ecms_report_acquiring_api/MVisaTransaction
 
 # 24. Terminal Level TXN Summary Report
-report_gen_api.terminal_level_txn_summary : http://192.168.1.150:7000/ecms_report_acquiring_api/TerminalLevelTXNSummary
+report_gen_api.terminal_level_txn_summary : http://192.168.2.23:7000/ecms_report_acquiring_api/TerminalLevelTXNSummary
 
 # 25. UPI Merchant And Terminal Statistics Report
-report_gen_api.upi_merchant_and_terminal_stat : http://192.168.1.150:7000/ecms_report_acquiring_api/UPIMerchantAndTerminalStatistics
+report_gen_api.upi_merchant_and_terminal_stat : http://192.168.2.23:7000/ecms_report_acquiring_api/UPIMerchantAndTerminalStatistics
 
 # 26. UPI Acquiring Transaction Statistics Report
-report_gen_api.upi_acquiring_transaction_stat : http://192.168.1.150:7000/ecms_report_acquiring_api/UPIAcquiringTransactionStatistics
+report_gen_api.upi_acquiring_transaction_stat : http://192.168.2.23:7000/ecms_report_acquiring_api/UPIAcquiringTransactionStatistics
 

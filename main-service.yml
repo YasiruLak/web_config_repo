@@ -2223,11 +2223,7 @@ ecms_web_debit_issuance_api.app_capture_upd.cardTypes : http://DEBIT-SERVICE/app
 ecms_web_debit_issuance_api.app_capture_upd.cardProducts : http://DEBIT-SERVICE/app_capture_upd/cardProducts
 ecms_web_debit_issuance_api.app_capture_upd.complete : http://DEBIT-SERVICE/app_capture_upd/complete
 ecms_web_debit_issuance_api.app_capture_upd.updpersonaldetails : http://DEBIT-SERVICE/app_capture_upd/updpersonaldetails
-
-
-
-
-
+ecms_web_debit_issuance_api.app_capture_upd.img_signature : http://DEBIT-SERVICE/app_capture_upd/img_signature
 
 
 #Instant Kyc Debit Application Capturing
@@ -2839,6 +2835,26 @@ ecms_web_acq_api.qruserrole.history: http://ACQUIRING-SERVICE/qruserrole/history
 ecms_web_acq_api.qruserrole.edit: http://ACQUIRING-SERVICE/qruserrole/edit
 ecms_web_acq_api.qruserrole.delete: http://ACQUIRING-SERVICE/qruserrole/delete
 
+#------------------------- Mobile User Operation Confirmation --------------------------
+ecms_web_acq_api.mobuseroperationconf.access : http://ACQUIRING-SERVICE/mobuseroperationconf/access
+ecms_web_acq_api.mobuseroperationconf.list : http://ACQUIRING-SERVICE/mobuseroperationconf/list
+ecms_web_acq_api.mobuseroperationconf.history: http://ACQUIRING-SERVICE/mobuseroperationconf/history
+ecms_web_acq_api.mobuseroperationconf.approve : http://ACQUIRING-SERVICE/mobuseroperationconf/approve
+ecms_web_acq_api.mobuseroperationconf.reject: http://ACQUIRING-SERVICE/mobuseroperationconf/reject
+
+#------------------------- Terminal User Password Reset Confirmation --------------------------
+ecms_web_acq_api.terminaluserpasswordresetconf.access : http://ACQUIRING-SERVICE/terminaluserpasswordresetconf/access
+ecms_web_acq_api.terminaluserpasswordresetconf.list : http://ACQUIRING-SERVICE/terminaluserpasswordresetconf/list
+ecms_web_acq_api.terminaluserpasswordresetconf.history: http://ACQUIRING-SERVICE/terminaluserpasswordresetconf/history
+ecms_web_acq_api.terminaluserpasswordresetconf.approve : http://ACQUIRING-SERVICE/terminaluserpasswordresetconf/approve
+ecms_web_acq_api.terminaluserpasswordresetconf.reject: http://ACQUIRING-SERVICE/terminaluserpasswordresetconf/reject
+
+#------------------------- QR Username Resend Request Confirmation --------------------------
+ecms_web_acq_api.qrusernameresendreqconf.access : http://ACQUIRING-SERVICE/qrusernameresendreqconf/access
+ecms_web_acq_api.qrusernameresendreqconf.list : http://ACQUIRING-SERVICE/qrusernameresendreqconf/list
+ecms_web_acq_api.qrusernameresendreqconf.history: http://ACQUIRING-SERVICE/qrusernameresendreqconf/history
+ecms_web_acq_api.qrusernameresendreqconf.approve : http://ACQUIRING-SERVICE/qrusernameresendreqconf/approve
+ecms_web_acq_api.qrusernameresendreqconf.reject: http://ACQUIRING-SERVICE/qrusernameresendreqconf/reject
 
 #Commission Profile
 ecms_web_acq_api.commissionProf.access : http://ACQUIRING-SERVICE/commissionProf/access
@@ -2855,6 +2871,26 @@ ecms_web_acq_api.commissionProf.update : http://ACQUIRING-SERVICE/commissionProf
 ecms_web_acq_api.commissionProf.delete : http://ACQUIRING-SERVICE/commissionProf/delete
 ecms_web_acq_api.commissionProf.approve : http://ACQUIRING-SERVICE/commissionProf/approve
 ecms_web_acq_api.commissionProf.reject : http://ACQUIRING-SERVICE/commissionProf/reject
+
+#Merchant Customer Update Confirmation
+ecms_web_acq_api.merchcustupdconf.access : http://ACQUIRING-SERVICE/merchcustupdconf/access
+ecms_web_acq_api.merchcustupdconf.list : http://ACQUIRING-SERVICE/merchcustupdconf/list
+ecms_web_acq_api.merchcustupdconf.view : http://ACQUIRING-SERVICE/merchcustupdconf/view
+ecms_web_acq_api.merchcustupdconf.history : http://ACQUIRING-SERVICE/merchcustupdconf/history
+
+#Manual Transaction Settlement Confirmation
+ecms_web_acq_api.manualtxnsettleconf.access : http://ACQUIRING-SERVICE/manualtxnsettleconf/access
+ecms_web_acq_api.manualtxnsettleconf.list : http://ACQUIRING-SERVICE/manualtxnsettleconf/list
+ecms_web_acq_api.manualtxnsettleconf.view : http://ACQUIRING-SERVICE/manualtxnsettleconf/view
+ecms_web_acq_api.manualtxnsettleconf.history : http://ACQUIRING-SERVICE/manualtxnsettleconf/history
+
+#Merchant Location Update Confirmation
+ecms_web_acq_api.mlconfirmationupd.access : http://ACQUIRING-SERVICE/mlconfirmationupd/access
+ecms_web_acq_api.mlconfirmationupd.list : http://ACQUIRING-SERVICE/mlconfirmationupd/list
+ecms_web_acq_api.mlconfirmationupd.view : http://ACQUIRING-SERVICE/mlconfirmationupd/view
+ecms_web_acq_api.mlconfirmationupd.history : http://ACQUIRING-SERVICE/mlconfirmationupd/history
+ecms_web_acq_api.mlconfirmationupd.confirm : http://ACQUIRING-SERVICE/mlconfirmationupd/confirm
+ecms_web_acq_api.mlconfirmationupd.reject : http://ACQUIRING-SERVICE/mlconfirmationupd/reject
 
 ############## Issuing Call Center New Changes Start Here ##########################
 
