@@ -1902,6 +1902,7 @@ ecms_web_call_center_api.autosetrequest.access : http://CALL-CENTER-SERVICE/auto
 ecms_web_call_center_api.autosetrequest.history : http://CALL-CENTER-SERVICE/autosetrequest/history
 ecms_web_call_center_api.autosetrequest.list : http://CALL-CENTER-SERVICE/autosetrequest/list
 ecms_web_call_center_api.autosetrequest.add : http://CALL-CENTER-SERVICE/autosetrequest/add
+ecms_web_call_center_api.autosetrequest.reqCount : http://CALL-CENTER-SERVICE/autosetrequest/reqCount
 
 #Account memos request
 ecms_web_call_center_api.accountmemos.access : http://CALL-CENTER-SERVICE/accountmemos/access
@@ -2585,7 +2586,7 @@ ecms_web_debit_issuance_api.debitchangereqconf.approve : http://DEBIT-SERVICE/de
 ecms_web_debit_issuance_api.debitchangereqconf.reject : http://DEBIT-SERVICE/debitchangereqconf/reject
 ecms_web_debit_issuance_api.debitchangereqconf.history : http://DEBIT-SERVICE/debitchangereqconf/history
 
-
+# ---------------------- ACQUIRING START HERE -----------------------------------
 # --------------------- ACQUIRING CONFIGURATION PAGES ----------------------------
 # Document Type Management
 ecms_web_acq_api.document-type.access : http://ACQUIRING-SERVICE/document-type/access
@@ -2735,6 +2736,23 @@ ecms_web_acq_api.acqtransactiontypes.delete : http://ACQUIRING-SERVICE/acqtransa
 ecms_web_acq_api.acqtransactiontypes.history : http://ACQUIRING-SERVICE/acqtransactiontypes/history
 ecms_web_acq_api.acqtransactiontypes.confirm : http://ACQUIRING-SERVICE/acqtransactiontypes/confirm
 ecms_web_acq_api.acqtransactiontypes.reject : http://ACQUIRING-SERVICE/acqtransactiontypes/reject
+
+#Acquiring Merchant Terminal req confirmation
+ecms_web_acq_api.merchantterminalreqconf.access : http://ACQUIRING-SERVICE/merchantterminalreqconf/access
+ecms_web_acq_api.merchantterminalreqconf.view : http://ACQUIRING-SERVICE/merchantterminalreqconf/view
+ecms_web_acq_api.merchantterminalreqconf.list : http://ACQUIRING-SERVICE/merchantterminalreqconf/list
+ecms_web_acq_api.merchantterminalreqconf.dualauthlist : http://ACQUIRING-SERVICE/merchantterminalreqconf/dualauthlist
+ecms_web_acq_api.merchantterminalreqconf.history : http://ACQUIRING-SERVICE/merchantterminalreqconf/history
+ecms_web_acq_api.merchantterminalreqconf.approve : http://ACQUIRING-SERVICE/merchantterminalreqconf/approve
+ecms_web_acq_api.merchantterminalreqconf.reject : http://ACQUIRING-SERVICE/merchantterminalreqconf/reject
+
+#Acquiring Merchant Terminal req confirmation
+ecms_web_acq_api.merchantterminalupdateconf.view : http://ACQUIRING-SERVICE/merchantterminalupdateconf/view
+ecms_web_acq_api.merchantterminalupdateconf.list : http://ACQUIRING-SERVICE/merchantterminalupdateconf/list
+ecms_web_acq_api.merchantterminalupdateconf.dualauthlist : http://ACQUIRING-SERVICE/merchantterminalupdateconf/dualauthlist
+ecms_web_acq_api.merchantterminalupdateconf.history : http://ACQUIRING-SERVICE/merchantterminalupdateconf/history
+ecms_web_acq_api.merchantterminalupdateconf.approve : http://ACQUIRING-SERVICE/merchantterminalupdateconf/approve
+ecms_web_acq_api.merchantterminalupdateconf.reject : http://ACQUIRING-SERVICE/merchantterminalupdateconf/reject
 
 #Listener Transaction
 ecms_web_acq_api.listenertransaction.access : http://ACQUIRING-SERVICE/listenertransaction/access
@@ -2892,6 +2910,18 @@ ecms_web_acq_api.mlconfirmationupd.history : http://ACQUIRING-SERVICE/mlconfirma
 ecms_web_acq_api.mlconfirmationupd.confirm : http://ACQUIRING-SERVICE/mlconfirmationupd/confirm
 ecms_web_acq_api.mlconfirmationupd.reject : http://ACQUIRING-SERVICE/mlconfirmationupd/reject
 
+#Memos Monitor
+ecms_web_acq_api.memosMonitor.list : http://ACQUIRING-SERVICE/memosMonitor/list
+ecms_web_acq_api.memosMonitor.history : http://ACQUIRING-SERVICE/memosMonitor/history
+ecms_web_acq_api.memosMonitor.edit : http://ACQUIRING-SERVICE/memosMonitor/edit
+
+# Request Monitor
+ecms_web_acq_api.request-monitor.merchantCusUpdateRequests : http://ACQUIRING-SERVICE/request-monitor/merchantCusUpdateRequests
+ecms_web_acq_api.request-monitor.statementCopyRequests : http://ACQUIRING-SERVICE/request-monitor/statementCopyRequests
+ecms_web_acq_api.request-monitor.manualSaleTxnRequests : http://ACQUIRING-SERVICE/request-monitor/manualSaleTxnRequests
+
+# ----------------- ACQUIRING END HERE ---------------------------------------------
+
 ############## Issuing Call Center New Changes Start Here ##########################
 
 # Service Request Workspace
@@ -2982,5 +3012,9 @@ ecms_web_acq_callcenter_api.terminalview.terminaluserpwdresetrequestslist : http
 ecms_web_acq_callcenter_api.terminalview.qrcodedispatchrequestslist : http://ACQUIRING-CALL-CENTER-SERVICE/terminalview/qrcodedispatchrequestslist
 ecms_web_acq_callcenter_api.terminalview.mobileusernameresendrequestslist : http://ACQUIRING-CALL-CENTER-SERVICE/terminalview/mobileusernameresendrequestslist
 ecms_web_acq_callcenter_api.terminalview.txnlist : http://ACQUIRING-CALL-CENTER-SERVICE/terminalview/txnlist
+
+#-------------------- acq call center search main view ----------------------
+ecms_web_acq_callcenter_api.acqcallcentersearch.acqverificationquestion : http://ACQUIRING-CALL-CENTER-SERVICE/acqcallcentersearch/acqverificationquestion
+ecms_web_acq_callcenter_api.acqcallcentersearch.acqadvancesearch : http://ACQUIRING-CALL-CENTER-SERVICE/acqcallcentersearch/acqadvancesearch
 
 ##################### ACQ Call Center End Here ########################
