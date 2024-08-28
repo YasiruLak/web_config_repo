@@ -155,3 +155,8 @@ ecms_web_acq_api.qrusergenerate.sendUserAndPassword : http://ACQUIRING-SERVICE/q
 ecms_web_acq_api.qruserrole.access : http://ACQUIRING-SERVICE/qruserrole/access
 ecms_web_acq_api.qruserrole.list : http://ACQUIRING-SERVICE/qruserrole/list
 ecms_web_acq_api.qruserrole.add : http://ACQUIRING-SERVICE/qruserrole/add
+
+#Terminal xn View
+ecms_web_acq_api.terminaltxnview.access : http://ACQUIRING-SERVICE/terminaltxnview/access
+ecms_web_acq_api.terminaltxnview.list : http://ACQUIRING-SERVICE/terminaltxnview/list
+ecms_web_acq_api.terminaltxnview.history : http://ACQUIRING-SERVICE/terminaltxnview/history

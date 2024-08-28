@@ -11,6 +11,7 @@ ecms_web_core_api.home.pagetask : http://CORE-SERVICE/home/pagetask
 ecms_web_core_api.password.reset : http://CORE-SERVICE/password/reset
 ecms_web_core_api.home.navigation : http://CORE-SERVICE/home/navigation
 ecms_web_core_api.home.callcenternav : http://CORE-SERVICE/home/callcenternav
+ecms_web_core_api.home.browse : http://CORE-SERVICE/home/browse
 
 # Userrole Management
 ecms_web_core_api.userrole.access : http://CORE-SERVICE/userrole/access
@@ -1208,6 +1209,7 @@ ecms_web_core_api.emailtemplate.list : http://CORE-SERVICE/emailtemplate/list
 
 #Transaction Type Management
 ecms_web_core_api.trantype.access : http://CORE-SERVICE/trantype/access
+ecms_web_core_api.trantype.addupdlist : http://CORE-SERVICE/trantype/addupdlist
 ecms_web_core_api.trantype.list : http://CORE-SERVICE/trantype/list
 ecms_web_core_api.trantype.financial-status : http://CORE-SERVICE/trantype/financial-status
 ecms_web_core_api.trantype.add : http://CORE-SERVICE/trantype/add
@@ -1968,7 +1970,6 @@ ecms_web_call_center_api.cardmainview.cardblockhistorylist : http://CALL-CENTER-
 ecms_web_call_center_api.cardmainview.pintryexceedhistorylist : http://CALL-CENTER-SERVICE/cardmainview/pintryexceedhistorylist
 ecms_web_call_center_api.cardmainview.lasttransbackend : http://CALL-CENTER-SERVICE/cardmainview/lasttransbackend
 ecms_web_call_center_api.cardmainview.lasttransonline : http://CALL-CENTER-SERVICE/cardmainview/lasttransonline
-ecms_web_call_center_api.cardmainview.mainView : http://CALL-CENTER-SERVICE/cardmainview/mainView
 
 
 #Loan on card request
@@ -2653,6 +2654,17 @@ ecms_web_acq_api.baseconfigure.dualauthlist : http://ACQUIRING-SERVICE/baseconfi
 ecms_web_acq_api.baseconfigure.confirm : http://ACQUIRING-SERVICE/baseconfigure/confirm
 ecms_web_acq_api.baseconfigure.reject : http://ACQUIRING-SERVICE/baseconfigure/reject
 
+#Channel Transactions
+ecms_web_acq_api.channeltransactions.access : http://ACQUIRING-SERVICE/channeltransactions/access
+ecms_web_acq_api.channeltransactions.list : http://ACQUIRING-SERVICE/channeltransactions/list
+ecms_web_acq_api.channeltransactions.dualauthlist : http://ACQUIRING-SERVICE/channeltransactions/dualauthlist
+ecms_web_acq_api.channeltransactions.history : http://ACQUIRING-SERVICE/channeltransactions/history
+ecms_web_acq_api.channeltransactions.add : http://ACQUIRING-SERVICE/channeltransactions/add
+ecms_web_acq_api.channeltransactions.edit : http://ACQUIRING-SERVICE/channeltransactions/edit
+ecms_web_acq_api.channeltransactions.delete : http://ACQUIRING-SERVICE/channeltransactions/delete
+ecms_web_acq_api.channeltransactions.confirm : http://ACQUIRING-SERVICE/channeltransactions/confirm
+ecms_web_acq_api.channeltransactions.reject : http://ACQUIRING-SERVICE/channeltransactions/reject
+
 #Standing Order
 ecms_web_core_api.standingordertype.access : http://CORE-SERVICE/standingordertype/access
 ecms_web_core_api.standingordertype.list : http://CORE-SERVICE/standingordertype/list
@@ -2901,6 +2913,8 @@ ecms_web_acq_api.manualtxnsettleconf.access : http://ACQUIRING-SERVICE/manualtxn
 ecms_web_acq_api.manualtxnsettleconf.list : http://ACQUIRING-SERVICE/manualtxnsettleconf/list
 ecms_web_acq_api.manualtxnsettleconf.view : http://ACQUIRING-SERVICE/manualtxnsettleconf/view
 ecms_web_acq_api.manualtxnsettleconf.history : http://ACQUIRING-SERVICE/manualtxnsettleconf/history
+ecms_web_acq_api.manualtxnsettleconf.approve : http://ACQUIRING-SERVICE/manualtxnsettleconf/approve
+ecms_web_acq_api.manualtxnsettleconf.reject : http://ACQUIRING-SERVICE/manualtxnsettleconf/reject
 
 #Merchant Location Update Confirmation
 ecms_web_acq_api.mlconfirmationupd.access : http://ACQUIRING-SERVICE/mlconfirmationupd/access
@@ -3016,5 +3030,53 @@ ecms_web_acq_callcenter_api.terminalview.txnlist : http://ACQUIRING-CALL-CENTER-
 #-------------------- acq call center search main view ----------------------
 ecms_web_acq_callcenter_api.acqcallcentersearch.acqverificationquestion : http://ACQUIRING-CALL-CENTER-SERVICE/acqcallcentersearch/acqverificationquestion
 ecms_web_acq_callcenter_api.acqcallcentersearch.acqadvancesearch : http://ACQUIRING-CALL-CENTER-SERVICE/acqcallcentersearch/acqadvancesearch
+
+# --------------------Terminal Main View--------------------------
+ecms_web_acquiring_call_center_api.terminalmainview.view: http://ACQUIRING-CALL-CENTER-SERVICE/terminalmainview/view
+ecms_web_acquiring_call_center_api.terminalmainview.terminalupdateList: http://ACQUIRING-CALL-CENTER-SERVICE/terminalmainview/terminalupdateList
+ecms_web_acquiring_call_center_api.terminalmainview.terminalblocklist: http://ACQUIRING-CALL-CENTER-SERVICE/terminalmainview/terminalblockrequestslist
+ecms_web_acquiring_call_center_api.terminalmainview.terminalactivationrequestslist: http://ACQUIRING-CALL-CENTER-SERVICE/terminalmainview/terminalactivationrequestslist
+ecms_web_acquiring_call_center_api.terminalmainview.terminaldeactivationrequestslist: http://ACQUIRING-CALL-CENTER-SERVICE/terminalmainview/terminaldeactivationrequestslist
+ecms_web_acquiring_call_center_api.terminalmainview.terminaluserpwdresetrequestslist: http://ACQUIRING-CALL-CENTER-SERVICE/terminalmainview/terminaluserpwdresetrequestslist
+ecms_web_acquiring_call_center_api.terminalmainview.qrcodedispatchrequestslist: http://ACQUIRING-CALL-CENTER-SERVICE/terminalmainview/qrcodedispatchrequestslist
+ecms_web_acquiring_call_center_api.terminalmainview.mobileusernameresendrequestslist: http://ACQUIRING-CALL-CENTER-SERVICE/terminalmainview/mobileusernameresendrequestslist
+
+#---------------------merchant location statement copy request--------------
+
+ecms_web_acquiring_call_center_api.locationstatementrequest.list: http://ACQUIRING-CALL-CENTER-SERVICE/merchantLocationStatementCopyRequest/list
+ecms_web_acquiring_call_center_api.locationstatementrequest.branchlist: http://ACQUIRING-CALL-CENTER-SERVICE/merchantLocationStatementCopyRequest/branchlist
+ecms_web_acquiring_call_center_api.locationstatementrequest.merchantlocationdetails: http://ACQUIRING-CALL-CENTER-SERVICE/merchantLocationStatementCopyRequest/merchantlocationdetails
+ecms_web_acquiring_call_center_api.locationstatementrequest.access: http://ACQUIRING-CALL-CENTER-SERVICE/merchantLocationStatementCopyRequest/access
+ecms_web_acquiring_call_center_api.locationstatementrequest.history: http://ACQUIRING-CALL-CENTER-SERVICE/merchantLocationStatementCopyRequest/history
+ecms_web_acquiring_call_center_api.locationstatementrequest.request: http://ACQUIRING-CALL-CENTER-SERVICE/merchantLocationStatementCopyRequest/request
+
+#---------------------merchant customer statement copy request----------------
+
+ecms_web_acquiring_call_center_api.merchantcustomerstatementcopyrequest.access: http://ACQUIRING-CALL-CENTER-SERVICE/merchantCustomerStatementCopyRequest/access
+ecms_web_acquiring_call_center_api.merchantcustomerstatementcopyrequest.history: http://ACQUIRING-CALL-CENTER-SERVICE/merchantCustomerStatementCopyRequest/history
+ecms_web_acquiring_call_center_api.merchantcustomerstatementcopyrequest.list: http://ACQUIRING-CALL-CENTER-SERVICE/merchantCustomerStatementCopyRequest/list
+ecms_web_acquiring_call_center_api.merchantcustomerstatementcopyrequest.branchlist: http://ACQUIRING-CALL-CENTER-SERVICE/merchantCustomerStatementCopyRequest/branchlist
+ecms_web_acquiring_call_center_api.merchantcustomerstatementcopyrequest.merchantcustomerdetails: http://ACQUIRING-CALL-CENTER-SERVICE/merchantCustomerStatementCopyRequest/merchantcustomerdetails
+ecms_web_acquiring_call_center_api.merchantcustomerstatementcopyrequest.request: http://ACQUIRING-CALL-CENTER-SERVICE/merchantCustomerStatementCopyRequest/request
+
+#----------------------terminal update------------------------
+ecms_web_acquiring_call_center_api.terminalupdate.access: http://ACQUIRING-CALL-CENTER-SERVICE/terminalupdate/access
+ecms_web_acquiring_call_center_api.terminalupdate.view: http://ACQUIRING-CALL-CENTER-SERVICE/terminalupdate/view
+ecms_web_acquiring_call_center_api.terminalupdate.edit: http://ACQUIRING-CALL-CENTER-SERVICE/terminalupdate/edit
+ecms_web_acquiring_call_center_api.terminalupdate.request: http://ACQUIRING-CALL-CENTER-SERVICE/terminalupdate/request
+
+
+#Terminal Txn View
+ecms_web_acq_api.terminaltxnview.access : http://ACQUIRING-SERVICE/terminaltxnview/access
+ecms_web_acq_api.terminaltxnview.list : http://ACQUIRING-SERVICE/terminaltxnview/list
+ecms_web_acq_api.terminaltxnview.history : http://ACQUIRING-SERVICE/terminaltxnview/history
+ecms_web_acq_api.terminaltxnview.historylist : http://ACQUIRING-SERVICE/terminaltxnview/historylist
+
+#-------------------- acq call center Merchant Location Details Change Req ----------------------
+ecms_web_acq_call_center_api.mldetailschangereq.access: http://ACQUIRING-CALL-CENTER-SERVICE/mldetailschangereq/access
+ecms_web_acq_api.mldetailschangereq.common-dropdown: http://ACQUIRING-CALL-CENTER-SERVICE/mldetailschangereq/common-dropdown
+ecms_web_acq_api.mldetailschangereq.load: http://ACQUIRING-CALL-CENTER-SERVICE/mldetailschangereq/load
+ecms_web_acq_call_center_api.mldetailschangereq.districtandprovice: http://ACQUIRING-CALL-CENTER-SERVICE/mldetailschangereq/districtandprovice
+
 
 ##################### ACQ Call Center End Here ########################

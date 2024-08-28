@@ -4,6 +4,16 @@ ecms_web_issuing_report_file.directory.excel : GeneratedReports/
 ecms_web_issuing_report_file.directory.pdf : GeneratedReports/
 ecms_web_issuing_report_file.directory.txt : GeneratedReports/
 
+# Report location dir
+ecms_web_issuing_report_file.directory.download.excel : GeneratedReports/
+ecms_web_issuing_report_file.directory.download.pdf : GeneratedReports/
+ecms_web_issuing_report_file.directory.download.txt : GeneratedReports/
+
+# Delete Report from dir
+ecms_web_issuing_report_api.delete_report.excel : http://issuing-report-service/delete_report/excel
+ecms_web_issuing_report_api.delete_report.pdf : http://issuing-report-service/delete_report/pdf
+ecms_web_issuing_report_api.delete_report.txt : http://issuing-report-service/delete_report/txt
+
 # ----------------------------------------------Issuing Report_Generator-----------------------------------------------#
 
 # 1 Installment Detail Report
