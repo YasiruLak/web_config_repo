@@ -35,7 +35,7 @@ spring:
     backend:
       auto-commit: true
       minimum-idle: 3
-      maximum-pool-size: 25
+      maximum-pool-size: 5
       idle-timeout: 600000 # 10 minutes
       max-lifetime: 1080000 # 18 minutes
       keep-alive-time: 300000 # 5 minutes
@@ -55,7 +55,7 @@ spring:
     online:
       auto-commit: true
       minimum-idle: 3
-      maximum-pool-size: 25
+      maximum-pool-size: 5
       idle-timeout: 600000 # 10 minutes
       max-lifetime: 1080000 # 18 minutes
       keep-alive-time: 300000 # 5 minutes
