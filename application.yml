@@ -27,11 +27,11 @@ spring:
     backend:
       auto-commit: true
       minimum-idle: 3
-      maximum-pool-size: 50
+      maximum-pool-size: 10
       idle-timeout: 600000 # 2 minutes
       max-lifetime: 360000 # 6 minutes
       keep-alive-time: 300000 # 5 minutes
-      leak-detection-threshold: 20000 # 20 seconds
+      leak-detection-threshold: 60000 # 20 seconds
       connection-timeout: 30000 # 30 seconds
       pool-name: ecms-product-backend-pool
       #      public url
@@ -47,11 +47,11 @@ spring:
     online:
       auto-commit: true
       minimum-idle: 3
-      maximum-pool-size: 50
+      maximum-pool-size: 10
       idle-timeout: 600000 # 10 minutes
-      max-lifetime: 1080000 # 18 minutes
+      max-lifetime: 360000 # 6 minutes
       keep-alive-time: 300000 # 5 minutes
-      leak-detection-threshold: 20000 # 20 seconds
+      leak-detection-threshold: 60000 # 20 seconds
       connection-timeout: 30000 # 30 seconds
       pool-name: ecms-product-online-pool
 #      jdbcUrl: ${BACKEND_DB_URL:jdbc:oracle:thin:@192.168.2.26:1521:cmsdb}
