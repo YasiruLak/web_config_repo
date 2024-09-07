@@ -38,7 +38,7 @@ spring:
       pool-name: ecms-product-backend-pool
       #      public url
 #      jdbcUrl: ${BACKEND_DB_URL:jdbc:oracle:thin:@192.168.2.26:1521:cmsdb}
-      jdbcUrl: ${BACKEND_DB_URL:jdbc:oracle:thin:@192.168.2.26:1521:cmsdb}
+      jdbcUrl: ${BACKEND_DB_URL:jdbc:oracle:thin:@124.43.16.185:50329:cmsdb}
       username: ${BACKEND_USERNAME:CMSBACKENDDEV}
 #      username: ${BACKEND_USERNAME:CMSPRODUCTBACKEND}
       password: ${BACKEND_PASSWORD:CMSBACKENDDEV}
@@ -59,12 +59,12 @@ spring:
       connection-test-query: SELECT 1
       pool-name: ecms-product-online-pool
 #      jdbcUrl: ${BACKEND_DB_URL:jdbc:oracle:thin:@192.168.2.26:1521:cmsdb}
-      jdbcUrl: ${BACKEND_DB_URL:jdbc:oracle:thin:@192.168.2.25:1521:cmsdb}
+      jdbcUrl: ${ONLINE_DB_URL:jdbc:oracle:thin:@124.43.16.185:50328:cmsdb}
       #      jdbcUrl: ${BACKEND_DB_URL:jdbc:oracle:thin:@localhost:1521:orcl}
 #      username: ${BACKEND_USERNAME:CMSPRODUCTONLINE}
-      username: ${BACKEND_USERNAME:CMSONLINEDEV}
+      username: ${ONLINE_USERNAME:CMSONLINEDEV}
 #      password: ${BACKEND_PASSWORD:CMSPRODUCTONLINE}
-      password: ${BACKEND_PASSWORD:CMSONLINEDEV}
+      password: ${ONLINE_PASSWORD:CMSONLINEDEV}
       driverClassName: oracle.jdbc.driver.OracleDriver
       test-on-borrow: true
       validationQuery: SELECT 1 FROM DUAL
