@@ -38,7 +38,7 @@ spring:
       pool-name: ecms-product-backend-pool
       #      public url
 #      jdbcUrl: ${BACKEND_DB_URL:jdbc:oracle:thin:@192.168.2.26:1521:cmsdb}
-      jdbcUrl: ${BACKEND_DB_URL:jdbc:oracle:thin:@192.168.2.26:1521:cmsdb}
+      jdbcUrl: ${BACKEND_DB_URL:jdbc:oracle:thin:@192.168.2.25:1521:cmsdb}
       username: ${BACKEND_USERNAME:CMSBACKENDDEV}
 #      username: ${BACKEND_USERNAME:CMSPRODUCTBACKEND}
       password: ${BACKEND_PASSWORD:CMSBACKENDDEV}
@@ -59,12 +59,12 @@ spring:
       connection-test-query: SELECT 1
       pool-name: ecms-product-online-pool
 #      jdbcUrl: ${BACKEND_DB_URL:jdbc:oracle:thin:@192.168.2.26:1521:cmsdb}
-      jdbcUrl: ${BACKEND_DB_URL:jdbc:oracle:thin:@192.168.2.25:1521:cmsdb}
+      jdbcUrl: ${ONLINE_DB_URL:jdbc:oracle:thin:@192.168.2.25:1521:cmsdb}
       #      jdbcUrl: ${BACKEND_DB_URL:jdbc:oracle:thin:@localhost:1521:orcl}
 #      username: ${BACKEND_USERNAME:CMSPRODUCTONLINE}
-      username: ${BACKEND_USERNAME:CMSONLINEDEV}
+      username: ${ONLINE_USERNAME:CMSONLINEDEV}
 #      password: ${BACKEND_PASSWORD:CMSPRODUCTONLINE}
-      password: ${BACKEND_PASSWORD:CMSONLINEDEV}
+      password: ${ONLINE_PASSWORD:CMSONLINEDEV}
       driverClassName: oracle.jdbc.driver.OracleDriver
       test-on-borrow: true
       validationQuery: SELECT 1 FROM DUAL
@@ -88,7 +88,7 @@ springdoc:
 #Report module DB Connections
 # ecms_report_backend_connection_for_python_url: CMSPRODUCTBACKENDDEV/CMSPRODUCTBACKENDDEV@//124.43.16.185:50170/cmsbkdb
 # ecms_report_online_connection_for_python_url: CMSPRODUCTONLINEDEV/CMSPRODUCTBACKENDDEV@//124.43.16.185:50170/cmsbkdb
-ecms_report_backend_connection_for_python_url: CMSBACKENDDEV/CMSBACKENDDEV@//192.168.2.26:1521/cmsdb
+ecms_report_backend_connection_for_python_url: CMSBACKENDDEV/CMSBACKENDDEV@//192.168.2.25:1521/cmsdb
 ecms_report_online_connection_for_python_url: CMSONLINEDEV/CMSONLINEDEV@//192.168.2.25:1521/cmsdb
 
 #EOD File upload path
