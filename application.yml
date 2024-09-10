@@ -27,11 +27,11 @@ spring:
     backend:
       auto-commit: true
       minimum-idle: 3
-      maximum-pool-size: 10
+      maximum-pool-size: 5
       idle-timeout: 600000 # 10 minutes
       max-lifetime: 360000 # 6 minutes
       keep-alive-time: 300000 # 5 minutes
-      leak-detection-threshold: 60000 # 2 minutes
+      leak-detection-threshold: 600000 # 2 minutes
       connection-timeout: 30000 # 30 seconds
       validation-timeout: 5000
       connection-test-query: SELECT 1
@@ -49,11 +49,11 @@ spring:
     online:
       auto-commit: true
       minimum-idle: 3
-      maximum-pool-size: 10
+      maximum-pool-size: 5
       idle-timeout: 600000 # 10 minutes
       max-lifetime: 360000 # 6 minutes
       keep-alive-time: 300000 # 5 minutes
-      leak-detection-threshold: 60000 # 2 minutes
+      leak-detection-threshold: 600000 # 2 minutes
       connection-timeout: 30000 # 30 seconds
       validation-timeout: 5000
       connection-test-query: SELECT 1
