@@ -363,9 +363,9 @@ ecms_web_issuing_report_api.standingordertype.access: http://ISSUING-REPORT-SERV
 
 
 # Report location dir
-ecms_web_issuing_report_file.directory.excel : /app/CMS/
-ecms_web_issuing_report_file.directory.pdf : /app/CMS/
-ecms_web_issuing_report_file.directory.txt : /app/CMS/
+#ecms_web_issuing_report_file.directory.excel : /app/CMS/
+#ecms_web_issuing_report_file.directory.pdf : /app/CMS/
+#ecms_web_issuing_report_file.directory.txt : /app/CMS/
 
 
 # Installment Detail Report
