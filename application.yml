@@ -75,8 +75,8 @@ springdoc:
     operationsSorter: method
 
 #Report module DB Connections
-ecms_report_backend_connection_for_python_url: CMSPRODUCTBACKEND/CMSPRODUCTBACKEND@//192.168.1.149:1552/cmsbkdb
-ecms_report_online_connection_for_python_url: CMSPRODUCTONLINE/CMSPRODUCTBACKEND@//192.168.1.149:1552/cmsbkdb
+ecms_report_backend_connection_for_python_url: CMSPRODUCTBACKEND/CMSPRODUCTBACKEND@//192.168.1.149:1522/cmsbkdb
+ecms_report_online_connection_for_python_url: CMSPRODUCTONLINE/CMSPRODUCTONLINE@//192.168.1.149:1522/cmsbkdb
 
 #EOD File upload path
 eoduploadpath: '/CMS/EODFILE/'
