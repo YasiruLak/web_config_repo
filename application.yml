@@ -81,6 +81,10 @@ ecms_report_online_connection_for_python_url: CMSPRODUCTONLINE/CMSPRODUCTONLINE@
 #EOD File upload path
 eoduploadpath: '/CMS/EODFILE/'
 
+#Scheduled Memo email sending time
+cron:
+  expression: "0 0 2 * * ?"
+
 tablesortmap:
   map:
     cardproductdes: cardproduct
