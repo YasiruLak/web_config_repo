@@ -33,12 +33,9 @@ spring:
       validation-timeout: 5000
       connection-test-query: SELECT 1
       pool-name: ecms-product-backend-pool
-#      jdbcUrl: ${BACKEND_DB_URL:jdbc:oracle:thin:@124.43.16.185:50328:cmsdb}
-#      username: ${BACKEND_USERNAME:CMSBACKENDDEV}
-#      password: ${BACKEND_PASSWORD:CMSBACKENDDEV}
-      jdbcUrl: ${BACKEND_DB_URL:jdbc:oracle:thin:@192.168.1.149:1522:cmsbkdb}
-      username: ${BACKEND_USERNAME:CMSPRODUCTBACKEND}
-      password: ${BACKEND_PASSWORD:CMSPRODUCTBACKEND}
+      jdbcUrl: ${BACKEND_DB_URL:jdbc:oracle:thin:@124.43.16.185:50328:cmsdb}
+      username: ${BACKEND_USERNAME:CMSBACKENDDEV}
+      password: ${BACKEND_PASSWORD:CMSBACKENDDEV}
       driverClassName: oracle.jdbc.driver.OracleDriver
       test-on-borrow: true
       validationQuery: SELECT 1 FROM DUAL
@@ -54,12 +51,9 @@ spring:
       validation-timeout: 5000
       connection-test-query: SELECT 1
       pool-name: ecms-product-online-pool
-#      jdbcUrl: ${ONLINE_DB_URL:jdbc:oracle:thin:@124.43.16.185:50328:cmsdb}
-#      username: ${ONLINE_USERNAME:CMSONLINEDEV}
-#      password: ${ONLINE_PASSWORD:CMSONLINEDEV}
-      jdbcUrl: ${ONLINE_DB_URL:jdbc:oracle:thin:@192.168.1.149:1522:cmsbkdb}
-      username: ${ONLINE_USERNAME:CMSPRODUCTONLINE}
-      password: ${ONLINE_PASSWORD:CMSPRODUCTONLINE}
+      jdbcUrl: ${ONLINE_DB_URL:jdbc:oracle:thin:@124.43.16.185:50328:cmsdb}
+      username: ${ONLINE_USERNAME:CMSONLINEDEV}
+      password: ${ONLINE_PASSWORD:CMSONLINEDEV}
       driverClassName: oracle.jdbc.driver.OracleDriver
       test-on-borrow: true
       validationQuery: SELECT 1 FROM DUAL
