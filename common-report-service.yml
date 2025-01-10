@@ -5,8 +5,8 @@ ecms_web_commonforpython_report_file.directory.pdf : GeneratedReports/
 ecms_web_commonforpython_report_file.directory.txt : GeneratedReports/
 
 # Report location dir
-ecms_web_commonforpython_report_file.directory.download.excel : /home/epic/PRODUCT/Report-Module/Generated-Report/
-ecms_web_commonforpython_report_file.directory.download.pdf : GeneratedReports/
+ecms_web_commonforpython_report_file.directory.download.excel : /app/CMS/
+ecms_web_commonforpython_report_file.directory.download.pdf : /app/CMS/
 ecms_web_commonforpython_report_file.directory.download.txt : /app/CMS/
 
 # Delete Report from dir
