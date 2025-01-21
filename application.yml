@@ -33,9 +33,9 @@ spring:
       validation-timeout: 5000
       connection-test-query: SELECT 1
       pool-name: ecms-product-backend-pool
-      jdbcUrl: ${BACKEND_DB_URL:jdbc:oracle:thin:@192.168.1.149:1522:cmsbkdb}
-      username: ${BACKEND_USERNAME:CMSPRODUCTBACKEND}
-      password: ${BACKEND_PASSWORD:CMSPRODUCTBACKEND}
+      jdbcUrl: ${BACKEND_DB_URL:jdbc:oracle:thin:@192.168.1.149:1539:ORCL}
+      username: ${BACKEND_USERNAME:PAYTECTBACKENDQA}
+      password: ${BACKEND_PASSWORD:PAYTECTBACKENDQA}
       driverClassName: oracle.jdbc.driver.OracleDriver
       test-on-borrow: true
       validationQuery: SELECT 1 FROM DUAL
@@ -51,9 +51,9 @@ spring:
       validation-timeout: 5000
       connection-test-query: SELECT 1
       pool-name: ecms-product-online-pool
-      jdbcUrl: ${ONLINE_DB_URL:jdbc:oracle:thin:@192.168.1.149:1522:cmsbkdb}
-      username: ${ONLINE_USERNAME:CMSPRODUCTONLINE}
-      password: ${ONLINE_PASSWORD:CMSPRODUCTONLINE}
+      jdbcUrl: ${ONLINE_DB_URL:jdbc:oracle:thin:@192.168.1.149:1539:ORCL}
+      username: ${ONLINE_USERNAME:PAYTECTONLINEQA }
+      password: ${ONLINE_PASSWORD:PAYTECTONLINEQA }
       driverClassName: oracle.jdbc.driver.OracleDriver
       test-on-borrow: true
       validationQuery: SELECT 1 FROM DUAL
@@ -75,8 +75,8 @@ springdoc:
     operationsSorter: method
 
 #Report module DB Connections
-ecms_report_backend_connection_for_python_url: CMSPRODUCTBACKEND/CMSPRODUCTBACKEND@//192.168.1.149:1522/cmsbkdb
-ecms_report_online_connection_for_python_url: CMSPRODUCTONLINE/CMSPRODUCTONLINE@//192.168.1.149:1522/cmsbkdb
+ecms_report_backend_connection_for_python_url: PAYTECTBACKENDQA/PAYTECTBACKENDQA@//192.168.1.149:1539/ORCL
+ecms_report_online_connection_for_python_url: PAYTECTONLINEQA/PAYTECTONLINEQA@//192.168.1.149:1539/ORCL
 
 #EOD File upload path
 eoduploadpath: '/CMS/EODFILE/'
