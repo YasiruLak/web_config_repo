@@ -1,8 +1,8 @@
 #----------------------------------------------- Report location dir---------------------------------------------------#
 
-ecms_web_issuing_report_file.directory.excel : GeneratedReports/
-ecms_web_issuing_report_file.directory.pdf : GeneratedReports/
-ecms_web_issuing_report_file.directory.txt : GeneratedReports/
+ecms_web_issuing_report_file.directory.excel : /app/CMS/GENERATEDREPORTS/
+ecms_web_issuing_report_file.directory.pdf : /app/CMS/GENERATEDREPORTS/
+ecms_web_issuing_report_file.directory.txt : /app/CMS/GENERATEDREPORTS/
 
 # Report location dir
 ecms_web_issuing_report_file.directory.download.excel : /app/CMS/GENERATEDREPORTS/
