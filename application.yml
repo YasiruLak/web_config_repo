@@ -85,6 +85,9 @@ eoduploadpath: '/CMS/EODFILE/'
 cron:
   expression: "0 0 2 * * ?"
 
+# User Idle Session Timeout
+idle-timeout: 300000
+
 tablesortmap:
   map:
     cardproductdes: cardproduct
