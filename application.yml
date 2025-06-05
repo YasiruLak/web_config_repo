@@ -37,12 +37,12 @@ spring:
       #      public url
       #      jdbcUrl: ${BACKEND_DB_URL:jdbc:oracle:thin:@//192.168.1.149:1539/ORCL}
       #      jdbcUrl: ${BACKEND_DB_URL:jdbc:oracle:thin:@124.43.16.185:50170:cmsbkdb}
-      jdbcUrl: ${BACKEND_DB_URL:jdbc:oracle:thin:@//124.43.16.185:50170/ORCL}
+      jdbcUrl: ${BACKEND_DB_URL:jdbc:oracle:thin:@//192.168.2.129:1521/orcl}
       #      username: ${BACKEND_USERNAME:PAYTECTBACKENDDEV}
-      username: ${BACKEND_USERNAME:PAYTECTBACKENDQA}
+      username: ${BACKEND_USERNAME:PAYTECTBACKEND}
       #      username: ${BACKEND_USERNAME:CMSPRODUCTBACKEND}
       #      password: ${BACKEND_PASSWORD:PAYTECTBACKENDDEV}
-      password: ${BACKEND_PASSWORD:PAYTECTBACKENDQA}
+      password: ${BACKEND_PASSWORD:PAYTECTBACKEND}
       #      password: ${BACKEND_PASSWORD:CMSPRODUCTBACKEND}
       driverClassName: oracle.jdbc.driver.OracleDriver
       test-on-borrow: true
@@ -58,13 +58,13 @@ spring:
       connection-timeout: 30000 # 30 seconds
       pool-name: ecms-product-online-pool
       #      jdbcUrl: ${BACKEND_DB_URL:jdbc:oracle:thin:@//192.168.1.149:1539/ORCL}
-      jdbcUrl: ${BACKEND_DB_URL:jdbc:oracle:thin:@//124.43.16.185:50170/ORCL}
+      jdbcUrl: ${BACKEND_DB_URL:jdbc:oracle:thin:@//192.168.2.129:1521/orcl}
       #      jdbcUrl: ${BACKEND_DB_URL:jdbc:oracle:thin:@localhost:1521:orcl}
       #      username: ${BACKEND_USERNAME:PAYTECTONLINEDEV}
-      username: ${BACKEND_USERNAME:PAYTECTONLINEQA}
+      username: ${BACKEND_USERNAME:PAYTECTONLINE}
       #      username: ${BACKEND_USERNAME:CMSPRODUCTONLINEDEV}
       #      password: ${BACKEND_PASSWORD:PAYTECTONLINEDEV}
-      password: ${BACKEND_PASSWORD:PAYTECTONLINEQA}
+      password: ${BACKEND_PASSWORD:PAYTECTONLINE}
       #      password: ${BACKEND_PASSWORD:CMSPRODUCTONLINEDEV}
       driverClassName: oracle.jdbc.driver.OracleDriver
       test-on-borrow: true
@@ -87,14 +87,14 @@ springdoc:
     operationsSorter: method
 
 #Report module DB Connections
-ecms_report_backend_connection_for_python_url: PAYTECTBACKENDDEV/PAYTECTBACKENDDEV@//124.43.16.185:50170/ORCL
-ecms_report_online_connection_for_python_url: PAYTECTBACKENDDEV/PAYTECTBACKENDDEV@//124.43.16.185:50170/ORCL
+ecms_report_backend_connection_for_python_url: PAYTECTBACKEND/PAYTECTBACKEND@//192.168.2.128:1521/orcl
+ecms_report_online_connection_for_python_url: PAYTECTONLINE/PAYTECTONLINE@//192.168.2.129:1521/orcl
 
 
 #Currentstatement view
-ecms_call_center_db_url: jdbc:oracle:thin:@//124.43.16.185:50170/ORCL
-ecms_call_center_db_username: PAYTECTBACKENDQA
-ecms_call_center_db_password: PAYTECTBACKENDQA
+ecms_call_center_db_url: jdbc:oracle:thin:@//192.168.2.128:1521/orcl
+ecms_call_center_db_username: PAYTECTBACKEND
+ecms_call_center_db_password: PAYTECTBACKEND
 
 #EOD File upload path
 eoduploadpath: "/CMS/EODFILE/"
