@@ -1,72 +1,83 @@
 #----------------------------------------------- Report location dir---------------------------------------------------#
 
-ecms_web_common_report_file.directory.excel : GeneratedReports/
-ecms_web_common_report_file.directory.pdf : GeneratedReports/
-ecms_web_common_report_file.directory.txt : GeneratedReports/
+ecms_web_acquiring_report_file.directory.excel : GeneratedReports/
+ecms_web_acquiring_report_file.directory.pdf : GeneratedReports/
+ecms_web_acquiring_report_file.directory.txt : GeneratedReports/
+
+# Report location dir
+ecms_web_acquiring_report_file.directory.download.excel : /app/CMS/GENERATEDREPORTS/
+ecms_web_acquiring_report_file.directory.download.pdf : /app/CMS/GENERATEDREPORTS/
+ecms_web_acquiring_report_file.directory.download.txt : /app/CMS/GENERATEDREPORTS/
+
+# Delete Report from dir
+ecms_web_acquiring_report_api.delete_report.excel : http://acquiring-report-service/delete_report/excel
+ecms_web_acquiring_report_api.delete_report.pdf : http://acquiring-report-service/delete_report/pdf
+ecms_web_acquiring_report_api.delete_report.txt : http://acquiring-report-service/delete_report/txt
 
 # ------------------------------------------------- Acquiring Report ------------------------------------------------------#
 # 01 cash advance report
-report_gen_api.cash_advance : http://192.168.2.22:7000/ecms_report_acquiring_api/CashAdvance
+report_gen_api.cash_advance : http://192.168.2.22:7000/ecms_report_acquiring_api/CashAdvanceReport
+
 
 ## 02 daily acq summary report
 #report_gen_api.daily_exception : http://192.168.2.22:7000/ecms_report_acquiring_api/DailyException
 
 # 03 daily exception report
-report_gen_api.daily_exception : http://192.168.2.22:7000/ecms_report_acquiring_api/DailyException
+report_gen_api.daily_exception : http://192.168.2.22:7000/ecms_report_acquiring_api/DailyExceptionReport
 
 # 04 daily merchant fee report
-report_gen_api.daily_merchant_fee_adj : http://192.168.2.22:7000/ecms_report_acquiring_api/DailyMerchantFeeAdj
+report_gen_api.daily_merchant_fee_adjustment : http://192.168.2.22:7000/ecms_report_acquiring_api/DailyMerchantFeeAdjustmentReport
 
 # 05 daily merchant sales summary report
-report_gen_api.daily_merchant_fee_sales_summary : http://192.168.2.22:7000/ecms_report_acquiring_api/DailyMerchantSalesSummary
+report_gen_api.daily_merchant_sales_summary : http://192.168.2.22:7000/ecms_report_acquiring_api/DailyMerchantSalesSummaryReport
 
-# 06 daily merchant sales summary report
-report_gen_api.eod_merchant_transaction : http://192.168.2.22:7000/ecms_report_acquiring_api/EODMerchantTransaction
+# 06 EOD Merchant Transaction Report
+report_gen_api.eod_merchant_transaction : http://192.168.2.22:7000/ecms_report_acquiring_api/EODMerchantTransactionReport
 
-# 07 daily merchant sales summary report
-report_gen_api.merchant_application_details : http://192.168.2.22:7000/ecms_report_acquiring_api/MerchantApplicationDetails
+# 07 Merchant Application Details Report
+report_gen_api.merchant_application_details : http://192.168.2.22:7000/ecms_report_acquiring_api/MerchantApplicationDetailsReport
 
-# 08 merchant commission report
-report_gen_api.merchant_commission : http://192.168.2.22:7000/ecms_report_acquiring_api/MerchantCommission
+# 08 Merchant Commission Report
+report_gen_api.merchant_commission : http://192.168.2.22:7000/ecms_report_acquiring_api/MerchantCommissionReport
 
 # 09 merchant detail report
-report_gen_api.merchant_detail : http://192.168.2.22:7000/ecms_report_acquiring_api/MerchantDetail
+report_gen_api.merchant_detail : http://192.168.2.22:7000/ecms_report_acquiring_api/MerchantDetailReport
 
 # 10. Merchant Installment Report
-report_gen_api.merchant_installment : http://192.168.2.22:7000/ecms_report_acquiring_api/MerchantInstallment
+report_gen_api.merchant_installment : http://192.168.2.22:7000/ecms_report_acquiring_api/MerchantInstallementReport
 
 # 11. Merchant Maintenance Report
-report_gen_api.merchant_maintenance : http://192.168.2.22:7000/ecms_report_acquiring_api/MerchantMaintenance
+report_gen_api.merchant_maintenance : http://192.168.2.22:7000/ecms_report_acquiring_api/MerchantMaintenanceReport
 
 # 12. Merchant Payment Report
-report_gen_api.merchant_payment : http://192.168.2.22:7000/ecms_report_acquiring_api/MerchantPayment
+report_gen_api.merchant_payment : http://192.168.2.22:7000/ecms_report_acquiring_api/MerchantPaymentReport
 
 # 13. Merchant Payment Summary Report
-report_gen_api.merchant_payment_summary : http://192.168.2.22:7000/ecms_report_acquiring_api/MerchantPaymentSummary
+report_gen_api.merchant_payment_summary : http://192.168.2.22:7000/ecms_report_acquiring_api/MerchantPaymentSummaryReport
 
 # 14. Merchant Training Report
-report_gen_api.merchant_training : http://192.168.2.22:7000/ecms_report_acquiring_api/MerchantTraining
+report_gen_api.merchant_training : http://192.168.2.22:7000/ecms_report_acquiring_api/MerchantTrainingReport
 
 # 15. Merchant Transaction Details Report
-report_gen_api.merchant_transaction_details : http://192.168.2.22:7000/ecms_report_acquiring_api/MerchantTransactionDetails
+report_gen_api.merchant_transaction_details : http://192.168.2.22:7000/ecms_report_acquiring_api/MerchantTransactionDetailsReport
 
 # 16. Merchant Transaction Summary Report
-report_gen_api.merchant_transaction_summary : http://192.168.2.22:7000/ecms_report_acquiring_api/MerchantTransactionSummary
+report_gen_api.merchant_transaction_summary : http://192.168.2.22:7000/ecms_report_acquiring_api/MerchantTransactionSummaryReport
 
 # 17. Non-Settled Transaction Report
-report_gen_api.non_settled_transaction : http://192.168.2.22:7000/ecms_report_acquiring_api/NonSettledTransaction
+report_gen_api.non_settled_transaction : http://192.168.2.22:7000/ecms_report_acquiring_api/NonSettledTransactionReport
 
 # 18. Settled Transaction Report
-report_gen_api.settled_transaction : http://192.168.2.22:7000/ecms_report_acquiring_api/SettledTransaction
+report_gen_api.settled_transaction : http://192.168.2.22:7000/ecms_report_acquiring_api/SettledTransactionReport
 
 # 19. System Generated Merchant Transaction Summary Report
-report_gen_api.sys_gen_merchant_tran_summary : http://192.168.2.22:7000/ecms_report_acquiring_api/SysGenMerchantTranSummary
+report_gen_api.sys_gen_merchant_tran_summary : http://192.168.2.22:7000/ecms_report_acquiring_api/SysGenMerchantTxnSummaryReport
 
 # 20. Terminal Detail Report
-report_gen_api.terminal_detail : http://192.168.2.22:7000/ecms_report_acquiring_api/TerminalDetail
+report_gen_api.terminal_detail : http://192.168.2.22:7000/ecms_report_acquiring_api/TerminalDetailReport
 
 # 21. Mobile Login History Report
-report_gen_api.mobile_login_history : http://192.168.2.22:7000/ecms_report_acquiring_api/MobileLoginHistory
+report_gen_api.mobile_login_history : http://192.168.2.22:7000/ecms_report_acquiring_api/MobileLoginHistoryReport
 
 # 22. Mobile Request Details Report
 report_gen_api.mobile_request_details : http://192.168.2.22:7000/ecms_report_acquiring_api/MobileRequestDetails
