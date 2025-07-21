@@ -37,7 +37,7 @@ spring:
       #      public url
       #      jdbcUrl: ${BACKEND_DB_URL:jdbc:oracle:thin:@//192.168.1.149:1539/ORCL}
       #      jdbcUrl: ${BACKEND_DB_URL:jdbc:oracle:thin:@124.43.16.185:50170:cmsbkdb}
-      jdbcUrl: ${BACKEND_DB_URL:jdbc:oracle:thin:@//192.168.2.129:1521/orcl}
+      jdbcUrl: ${BACKEND_DB_URL:jdbc:oracle:thin:@192.168.2.128:1521:orcl}
       #      username: ${BACKEND_USERNAME:PAYTECTBACKENDDEV}
       username: ${BACKEND_USERNAME:PAYTECTBACKEND}
       #      username: ${BACKEND_USERNAME:CMSPRODUCTBACKEND}
@@ -58,7 +58,7 @@ spring:
       connection-timeout: 30000 # 30 seconds
       pool-name: ecms-product-online-pool
       #      jdbcUrl: ${BACKEND_DB_URL:jdbc:oracle:thin:@//192.168.1.149:1539/ORCL}
-      jdbcUrl: ${BACKEND_DB_URL:jdbc:oracle:thin:@//192.168.2.129:1521/orcl}
+      jdbcUrl: ${BACKEND_DB_URL:jdbc:oracle:thin:@192.168.2.129:1521:orcl}
       #      jdbcUrl: ${BACKEND_DB_URL:jdbc:oracle:thin:@localhost:1521:orcl}
       #      username: ${BACKEND_USERNAME:PAYTECTONLINEDEV}
       username: ${BACKEND_USERNAME:PAYTECTONLINE}
