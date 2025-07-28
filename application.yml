@@ -22,7 +22,7 @@ spring:
   #      com.zaxxer.hikari: TRACE
   servlet:
     multipart:
-      max-file-size: 60MB
+      max-file-size: 30MB
   datasource:
     backend:
       auto-commit: true
@@ -75,6 +75,13 @@ jwt:
   secret: EPICCMSREVAMP
   token-validity: 14400
   refresh-token-validity: 16200
+
+key:
+  rsa:
+    private-key:
+      path: /home/epic/PAYTECHT/key/rsa/privatekey.pem
+  aes:
+    path: /home/epic/PAYTECHT/key/aes/encrypted_aes.key
 
 user:
   session-validity: 16200
