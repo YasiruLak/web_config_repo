@@ -17,7 +17,7 @@ ecms_web_common_report_api.delete_report.txt : https:///common-report-service/de
 
 # 01 user login report
 #report_gen_api.user_login : https://192.168.2.125/ecms_report_core_api/UserLoginReport
-report_gen_api.user_login : http://192.168.2.125/ecms_report_core_api/UserLoginReport
+report_gen_api.user_login : http://192.168.2.125:6000/ecms_report_core_api/UserLoginReport
 
 # 02 user modification report
 #report_gen_api.user_modification : https://192.168.2.125/ecms_report_core_api/UserModificationReport
