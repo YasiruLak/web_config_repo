@@ -94,7 +94,7 @@ springdoc:
     operationsSorter: method
 
 #Report module DB Connections
-ecms_report_backend_connection_for_python_url: PAYTECTBACKEND/PAYTECTBACKEND@//192.168.2.129:1521/orcl
+ecms_report_backend_connection_for_python_url: PAYTECTBACKEND/PAYTECTBACKEND@//192.168.2.129:1521/orcl.localdomain
 ecms_report_online_connection_for_python_url: PAYTECTONLINE/PAYTECTONLINE@//192.168.2.128:1521/orcl.localdomain
 
 
