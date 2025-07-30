@@ -10,9 +10,9 @@ ecms_web_commonforpython_report_file.directory.download.pdf : /app/CMS/GENERATED
 ecms_web_commonforpython_report_file.directory.download.txt : /app/CMS/GENERATEDREPORTS/
 
 # Delete Report from dir
-ecms_web_common_report_api.delete_report.excel : http://common-report-service/delete_report/excel
-ecms_web_common_report_api.delete_report.pdf : http://common-report-service/delete_report/pdf
-ecms_web_common_report_api.delete_report.txt : http://common-report-service/delete_report/txt
+ecms_web_common_report_api.delete_report.excel : https://common-report-service/delete_report/excel
+ecms_web_common_report_api.delete_report.pdf : https://common-report-service/delete_report/pdf
+ecms_web_common_report_api.delete_report.txt : https://common-report-service/delete_report/txt
 ##------------------------------------------- Common Report_Generator---------------------------------------------------#
 
 # 01 user login report

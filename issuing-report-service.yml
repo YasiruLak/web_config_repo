@@ -10,9 +10,9 @@ ecms_web_issuing_report_file.directory.download.pdf : /app/CMS/GENERATEDREPORTS/
 ecms_web_issuing_report_file.directory.download.txt : /app/CMS/GENERATEDREPORTS/
 
 # Delete Report from dir
-ecms_web_issuing_report_api.delete_report.excel : http://issuing-report-service/delete_report/excel
-ecms_web_issuing_report_api.delete_report.pdf : http://issuing-report-service/delete_report/pdf
-ecms_web_issuing_report_api.delete_report.txt : http://issuing-report-service/delete_report/txt
+ecms_web_issuing_report_api.delete_report.excel : https://issuing-report-service/delete_report/excel
+ecms_web_issuing_report_api.delete_report.pdf : https://issuing-report-service/delete_report/pdf
+ecms_web_issuing_report_api.delete_report.txt : https://issuing-report-service/delete_report/txt
 
 ## ---------------------------------------------- LOCAL ENVIRONMENT -----------------------------------------------#
 ## ----------------------------------------------Issuing Report_Generator-----------------------------------------------#
