@@ -23,15 +23,15 @@ spring:
   datasource:
     backend:
       auto-commit: true
-      minimum-idle: 3
-      maximum-pool-size: 5
-      idle-timeout: 600000 # 10 minutes
-      max-lifetime: 360000 # 6 minutes
-      keep-alive-time: 300000 # 5 minutes
-      leak-detection-threshold: 600000 # 2 minutes
-      connection-timeout: 30000 # 30 seconds
-      validation-timeout: 5000
-      connection-test-query: SELECT 1
+      minimum-idle: 15
+      maximum-pool-size: 150
+      idle-timeout: 300000                  # 5 min, close idle connections
+      max-lifetime: 1800000                 # 30 min, prevent stale connections
+      keep-alive-time: 300000               # ping idle connections every 5 min
+      leak-detection-threshold: 20000       # 20 sec for QA only, disable in prod
+      connection-timeout: 30000             # 30 sec wait for connection from pool
+      validation-timeout: 5000              # 5 sec max for validation query
+      connection-test-query: SELECT 1 FROM DUAL
       pool-name: ecms-product-backend-pool
       jdbcUrl: ${BACKEND_DB_URL:jdbc:oracle:thin:@192.168.1.149:1539:ORCL}
       username: ${BACKEND_USERNAME:PAYTECTBACKENDQA}
@@ -41,15 +41,15 @@ spring:
       validationQuery: SELECT 1 FROM DUAL
     online:
       auto-commit: true
-      minimum-idle: 3
-      maximum-pool-size: 5
-      idle-timeout: 600000 # 10 minutes
-      max-lifetime: 360000 # 6 minutes
-      keep-alive-time: 300000 # 5 minutes
-      leak-detection-threshold: 600000 # 2 minutes
-      connection-timeout: 30000 # 30 seconds
-      validation-timeout: 5000
-      connection-test-query: SELECT 1
+      minimum-idle: 10
+      maximum-pool-size: 70
+      idle-timeout: 300000                  # 5 min, close idle connections
+      max-lifetime: 1800000                 # 30 min, prevent stale connections
+      keep-alive-time: 300000               # ping idle connections every 5 min
+      leak-detection-threshold: 20000       # 20 sec for QA only, disable in prod
+      connection-timeout: 30000             # 30 sec wait for connection from pool
+      validation-timeout: 5000              # 5 sec max for validation query
+      connection-test-query: SELECT 1 FROM DUAL
       pool-name: ecms-product-online-pool
       jdbcUrl: ${ONLINE_DB_URL:jdbc:oracle:thin:@192.168.1.149:1539:ORCL}
       username: ${ONLINE_USERNAME:PAYTECTONLINEQA }
