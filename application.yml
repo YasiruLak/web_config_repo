@@ -83,6 +83,10 @@ key:
   aes:
     path: /home/epic/PAYTECHT/key/aes/encrypted_aes.key
 
+# Secure delete tool path for windows
+sdelete:
+  path: C:/Tools/SDelete/sdelete.exe
+  
 user:
   session-validity: 16200
 
