@@ -64,8 +64,19 @@ jwt:
   token-validity: 14400
   refresh-token-validity: 16200
 
+key:
+  rsa:
+    private-key:
+      path: E:/PAYTECT/key/rsa/privatekey.pem
+  aes:
+    path: E:/PAYTECT/key/aes/encrypted_aes.key
+
 user:
   session-validity: 16200
+
+# Secure delete tool path for windows
+sdelete:
+  path: C:/Tools/SDelete/sdelete.exe
 
 springdoc:
   api-docs:
