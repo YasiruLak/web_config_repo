@@ -6,7 +6,10 @@ management:
     web:
       exposure:
         include: metrics
+
 spring:
+  application:
+    name: config-server
   mvc:
     static-path-pattern: /static
     throw-exception-if-no-handler-found: true
@@ -15,6 +18,13 @@ spring:
     hibernate:
       ddl-auto: none
       dialect: Oracle12cDialect
+  cloud:
+    config:
+      server:
+        native:
+          search-locations: file:///u01/CMS/web_config_repo
+  profiles:
+    active: native
   logging:
     level:
   #      org.springframework.boot.autoconfigure.jdbc: DEBUG
@@ -34,16 +44,9 @@ spring:
       leak-detection-threshold: 20000 # 20 seconds
       connection-timeout: 30000 # 30 seconds
       pool-name: ecms-product-backend-pool
-      #      public url
-      #      jdbcUrl: ${BACKEND_DB_URL:jdbc:oracle:thin:@//192.168.1.149:1539/ORCL}
-      #      jdbcUrl: ${BACKEND_DB_URL:jdbc:oracle:thin:@124.43.16.185:50170:cmsbkdb}
       jdbcUrl: ${BACKEND_DB_URL:jdbc:oracle:thin:@//drracx9-scan1:1552/TCMSPDB2}
-      #      username: ${BACKEND_USERNAME:PAYTECTBACKENDDEV}
       username: ${BACKEND_USERNAME:PAYTECTBACKENDQA}
-      #      username: ${BACKEND_USERNAME:CMSPRODUCTBACKEND}
-      #      password: ${BACKEND_PASSWORD:PAYTECTBACKENDDEV}
       password: ${BACKEND_PASSWORD:DFCC#3210}
-      #      password: ${BACKEND_PASSWORD:CMSPRODUCTBACKEND}
       driverClassName: oracle.jdbc.driver.OracleDriver
       test-on-borrow: true
       validationQuery: SELECT 1 FROM DUAL
@@ -57,15 +60,9 @@ spring:
       leak-detection-threshold: 20000 # 20 seconds
       connection-timeout: 30000 # 30 seconds
       pool-name: ecms-product-online-pool
-      #      jdbcUrl: ${BACKEND_DB_URL:jdbc:oracle:thin:@//192.168.1.149:1539/ORCL}
       jdbcUrl: ${BACKEND_DB_URL:jdbc:oracle:thin:@//drracx9-scan1:1552/TCMSPDB1}
-      #      jdbcUrl: ${BACKEND_DB_URL:jdbc:oracle:thin:@localhost:1521:orcl}
-      #      username: ${BACKEND_USERNAME:PAYTECTONLINEDEV}
       username: ${BACKEND_USERNAME:PAYTECTONLINEQA}
-      #      username: ${BACKEND_USERNAME:CMSPRODUCTONLINEDEV}
-      #      password: ${BACKEND_PASSWORD:PAYTECTONLINEDEV}
       password: ${BACKEND_PASSWORD:DFCC#1230}
-      #      password: ${BACKEND_PASSWORD:CMSPRODUCTONLINEDEV}orcl.localdomain
       driverClassName: oracle.jdbc.driver.OracleDriver
       test-on-borrow: true
       validationQuery: SELECT 1 FROM DUAL
@@ -86,7 +83,7 @@ key:
 # Secure delete tool path for windows
 sdelete:
   path: C:/Tools/SDelete/sdelete.exe
-  
+
 user:
   session-validity: 16200
 
@@ -100,7 +97,6 @@ springdoc:
 #Report module DB Connections
 ecms_report_backend_connection_for_python_url: pass
 ecms_report_online_connection_for_python_url: pass
-
 
 #Currentstatement view
 ecms_call_center_db_url: jdbc:oracle:thin:@//drracx9-scan1:1552/TCMSPDB1
@@ -134,14 +130,6 @@ tablesortmap:
     statusdes: status
     maskedcardno: maincardnumber
     accountstatus: accstatus
-    #    idType: idtype
-    #    idNumber: idnumber
-    #    cardNumber: cardnumber
-    #    cardType: cardtype
-    #    cardProduct: cardproduct
-    #    cardCat: cardcategorycode
-    #    lastUpdatedUser: lastupdateduser
-    #    lastUpdatedTime: lastupdatedtime
     pagedesc: pagetaskentityIdentity
     taskdesc: pagetaskentityIdentity
     pageActualFlag: adaflag
@@ -162,5 +150,17 @@ tablesortmap:
     remark: remarks
     requstuser: requesteduser
     reqcreatedtime: createdtime
-    #    cardcategorydes: cardcategory
-    paymentplandes: paymentplan
+
+#eureka:
+#  client:
+#    register-with-eureka: true
+#    fetch-registry: true
+#    service-url:
+#      defaultZone: http://10.210.29.187:8761/eureka/
+#      # defaultZone: http://10.210.29.184:8761/eureka/   # --For File Processing
+#  instance:
+#    hostname: 10.210.29.187
+#    # hostname: 10.210.29.184   # --For File Processing
+#    instanceId: "${spring.application.name}:${spring.application.instance_id:${random.value}}"
+#    leaseRenewalIntervalInSeconds: 1
+#    leaseExpirationDurationInSeconds: 2
