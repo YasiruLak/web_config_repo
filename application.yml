@@ -37,7 +37,7 @@ spring:
       #      public url
       #      jdbcUrl: ${BACKEND_DB_URL:jdbc:oracle:thin:@//192.168.1.149:1539/ORCL}
       #      jdbcUrl: ${BACKEND_DB_URL:jdbc:oracle:thin:@124.43.16.185:50170:cmsbkdb}
-      jdbcUrl: ${BACKEND_DB_URL:jdbc:oracle:thin:@drracx9-scan1:1552:TCMSPDB2}
+      jdbcUrl: ${BACKEND_DB_URL:jdbc:oracle:thin:@//drracx9-scan1:1552/TCMSPDB2}
       #      username: ${BACKEND_USERNAME:PAYTECTBACKENDDEV}
       username: ${BACKEND_USERNAME:PAYTECTBACKENDQA}
       #      username: ${BACKEND_USERNAME:CMSPRODUCTBACKEND}
@@ -58,7 +58,7 @@ spring:
       connection-timeout: 30000 # 30 seconds
       pool-name: ecms-product-online-pool
       #      jdbcUrl: ${BACKEND_DB_URL:jdbc:oracle:thin:@//192.168.1.149:1539/ORCL}
-      jdbcUrl: ${BACKEND_DB_URL:jdbc:oracle:thin:@drracx9-scan1:1552:TCMSPDB1}
+      jdbcUrl: ${BACKEND_DB_URL:jdbc:oracle:thin:@//drracx9-scan1:1552/TCMSPDB1}
       #      jdbcUrl: ${BACKEND_DB_URL:jdbc:oracle:thin:@localhost:1521:orcl}
       #      username: ${BACKEND_USERNAME:PAYTECTONLINEDEV}
       username: ${BACKEND_USERNAME:PAYTECTONLINEQA}
@@ -103,9 +103,9 @@ ecms_report_online_connection_for_python_url: pass
 
 
 #Currentstatement view
-ecms_call_center_db_url: jdbc:oracle:thin:@//192.168.2.128:1521/orcl
-ecms_call_center_db_username: PAYTECTBACKEND
-ecms_call_center_db_password: PAYTECTBACKEND
+ecms_call_center_db_url: jdbc:oracle:thin:@//drracx9-scan1:1552/TCMSPDB1
+ecms_call_center_db_username: PAYTECTONLINEQA
+ecms_call_center_db_password: DFCC#1230
 
 #EOD File upload path
 eoduploadpath: "/CMS/EODFILE/"
