@@ -16,29 +16,29 @@ ecms_web_common_report_api.delete_report.txt : https://common-report-service/del
 ##------------------------------------------- Common Report_Generator---------------------------------------------------#
 
 # 01 user login report
-#report_gen_api.user_login : http://192.168.2.125:6000/ecms_report_core_api/UserLoginReport
-report_gen_api.user_login : http://192.168.2.125:6000/ecms_report_core_api/UserLoginReport
+#report_gen_api.user_login : http://172.30.35.74:6000/ecms_report_core_api/UserLoginReport
+report_gen_api.user_login : http://172.30.35.74:6000/ecms_report_core_api/UserLoginReport
 
 # 02 user modification report
-#report_gen_api.user_modification : http://192.168.2.125:6000/ecms_report_core_api/UserModificationReport
-report_gen_api.user_modification : http://192.168.2.125:6000/ecms_report_core_api/UserModificationReport
+#report_gen_api.user_modification : http://172.30.35.74:6000/ecms_report_core_api/UserModificationReport
+report_gen_api.user_modification : http://172.30.35.74:6000/ecms_report_core_api/UserModificationReport
 
 # 03 userrole privileges report
-#report_gen_api.userrole_privileges : http://192.168.2.125:6000/ecms_report_core_api/UserRolePrivilegesReport
-report_gen_api.userrole_privileges : http://192.168.2.125:6000/ecms_report_core_api/UserRolePrivilegesReport
+#report_gen_api.userrole_privileges : http://172.30.35.74:6000/ecms_report_core_api/UserRolePrivilegesReport
+report_gen_api.userrole_privileges : http://172.30.35.74:6000/ecms_report_core_api/UserRolePrivilegesReport
 
 # 04 password reset report
-#report_gen_api.password_reset : http://192.168.2.125:6000/ecms_report_core_api/PasswordResetReport
-report_gen_api.password_reset : https:///192.168.2.125/ecms_report_core_api/PasswordResetReport
+#report_gen_api.password_reset : http://172.30.35.74:6000/ecms_report_core_api/PasswordResetReport
+report_gen_api.password_reset : https:///172.30.35.74/ecms_report_core_api/PasswordResetReport
 
 # 05 internal user creation report
-#report_gen_api.internal_user_creation : http://192.168.2.125:6000/ecms_report_core_api/InternalUserCreationReport
-report_gen_api.internal_user_creation : http://192.168.2.125:6000/ecms_report_core_api/InternalUserCreationReport
+#report_gen_api.internal_user_creation : http://172.30.35.74:6000/ecms_report_core_api/InternalUserCreationReport
+report_gen_api.internal_user_creation : http://172.30.35.74:6000/ecms_report_core_api/InternalUserCreationReport
 
 # 06 system user status report
-#report_gen_api.system_userstatus : http://192.168.2.125:6000/ecms_report_core_api/SystemUserStatusReport
-report_gen_api.system_userstatus : http://192.168.2.125:6000/ecms_report_core_api/SystemUserStatusReport
+#report_gen_api.system_userstatus : http://172.30.35.74:6000/ecms_report_core_api/SystemUserStatusReport
+report_gen_api.system_userstatus : http://172.30.35.74:6000/ecms_report_core_api/SystemUserStatusReport
 
 # 07 system audit report
-#report_gen_api.system_auditreport : http://192.168.2.125:6000/ecms_report_core_api/SystemAuditReport
-report_gen_api.system_auditreport : http://192.168.2.125:6000/ecms_report_core_api/SystemAuditReport
+#report_gen_api.system_auditreport : http://172.30.35.74:6000/ecms_report_core_api/SystemAuditReport
+report_gen_api.system_auditreport : http://172.30.35.74:6000/ecms_report_core_api/SystemAuditReport
