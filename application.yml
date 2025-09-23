@@ -8,8 +8,6 @@ management:
         include: metrics
 
 spring:
-  application:
-    name: config-server
   mvc:
     static-path-pattern: /static
     throw-exception-if-no-handler-found: true
@@ -18,13 +16,6 @@ spring:
     hibernate:
       ddl-auto: none
       dialect: Oracle12cDialect
-  cloud:
-    config:
-      server:
-        native:
-          search-locations: file:///u01/CMS/web_config_repo
-  profiles:
-    active: native
   logging:
     level:
   #      org.springframework.boot.autoconfigure.jdbc: DEBUG
@@ -150,6 +141,8 @@ tablesortmap:
     remark: remarks
     requstuser: requesteduser
     reqcreatedtime: createdtime
+    #    cardcategorydes: cardcategory
+    paymentplandes: paymentplan
 
 #eureka:
 #  client:
