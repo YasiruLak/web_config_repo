@@ -73,8 +73,10 @@ spring:
 jwt:
   issuer: epic-cms
   secret: EPICCMSREVAMP
-  token-validity: 60 # 1min
-  refresh-token-validity: 300 # 5min
+  token-validity: 14000
+#  token-validity: 60
+  refresh-token-validity: 16000
+#  refresh-token-validity: 300
 
 key:
   rsa:
@@ -86,7 +88,7 @@ key:
 # Secure delete tool path for windows
 sdelete:
   path: C:/Tools/SDelete/sdelete.exe
-  
+
 user:
   session-validity: 16200
 
