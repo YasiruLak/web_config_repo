@@ -73,10 +73,10 @@ spring:
 jwt:
   issuer: epic-cms
   secret: EPICCMSREVAMP
-#  token-validity: 14000
-  token-validity: 60
-#  refresh-token-validity: 16000
-  refresh-token-validity: 300
+  token-validity: 14000
+#  token-validity: 60
+  refresh-token-validity: 16000
+#  refresh-token-validity: 300
 
 key:
   rsa:
